@@ -8,47 +8,49 @@ public class MeleeEnemy : MonoBehaviour
     public Sprite meleeSide;
     private SpriteRenderer spriteRend;
 
-    public GameObject player;
-
     public float idleTime;
     public float speed;
 
     private bool turned;
     private bool idle;
-    private bool playerVisible;
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
         spriteRend = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*if (turned && playerVisible == false && idle == false)
-        {
-            spriteRend.sprite = meleeSide;
-            spriteRend.flipX = false;
-            transform.position = transform.position + new Vector3(1, 0, 0) * speed * Time.deltaTime;
-        }
-        else if (turned == false && playerVisible == false && idle == false)
+        if (turned && idle == false)
         {
             spriteRend.sprite = meleeSide;
             spriteRend.flipX = true;
-            transform.position = transform.position + new Vector3(-1, 0, 0) * speed * Time.deltaTime;
-        }*/
+            transform.position = transform.position + new Vector3(1, 0, 0) * speed * Time.deltaTime;
+        }
+        else if (turned == false && idle == false)
+        {
+            spriteRend.sprite = meleeSide;
+            spriteRend.flipX = false;
+            transform.position = transform.position - new Vector3(1, 0, 0) * speed * Time.deltaTime;
+        }
     }
 
     // Turn trigger
-    void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(other.gameObject.CompareTag("EnemyBoundry"))
+        if(collision.gameObject.CompareTag("EnemyBoundary"))
         {
             spriteRend.sprite = meleeForward;
             idle = true;
             StartCoroutine(StartTurn());
+        }
+
+        if(collision.gameObject.CompareTag("PlayerWeapon"))
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
     }
 
@@ -61,7 +63,7 @@ public class MeleeEnemy : MonoBehaviour
         {
             turned = false;
         }
-        else
+        else if(turned == false)
         {
             turned = true;
         }

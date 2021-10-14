@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterController : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class CharacterController : MonoBehaviour
     public float horizAxis;
     private bool isGrounded;
     private bool isJumping;
+    public float speed;
 
     public Sprite playerFront;
     public Sprite playerSide;
@@ -33,7 +35,16 @@ public class CharacterController : MonoBehaviour
     {
         // Gets key input
         horizAxis = Input.GetAxis("Horizontal");
-        player.position += (new Vector3(horizAxis, 0, 0))/30;
+
+        if(isJumping)
+        {
+            player.position += (new Vector3(horizAxis, 0, 0)) * (speed / 100) / 1.5f;
+        }
+        else
+        {
+            player.position += (new Vector3(horizAxis, 0, 0)) * (speed / 100);
+        }
+        
 
 
         // Sets walking sprite if grounded
@@ -102,7 +113,12 @@ public class CharacterController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Respawn"))
         {
-            transform.position = new Vector3(-144.3f, 10.2f, 0);
+            SceneManager.LoadScene("GameScene");
+        }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            SceneManager.LoadScene("GameScene");
         }
     }
 
