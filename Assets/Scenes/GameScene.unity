@@ -685,7 +685,7 @@ SpriteRenderer:
   m_Size: {x: 2.71, y: 3.65}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &499203142
@@ -720,8 +720,8 @@ MonoBehaviour:
   speed: 2.5
   playerFront: {fileID: 5437184318582852804, guid: 9a2f7c19d2d02d24a82e846968db9665, type: 3}
   playerSide: {fileID: -8398415002296814855, guid: 4baa55b2748633642b0876d9cae15d65, type: 3}
-  playerJump: {fileID: 5492787100059281534, guid: afa6ff308d484234a8e22bf50005e63a, type: 3}
-  playerJumpSide: {fileID: 5492787100059281534, guid: afa6ff308d484234a8e22bf50005e63a, type: 3}
+  playerJump: {fileID: 21300000, guid: ca640c29dbd6ad3448012fd70c63ba32, type: 3}
+  playerJumpSide: {fileID: 21300000, guid: ca640c29dbd6ad3448012fd70c63ba32, type: 3}
   playerLand: {fileID: -4258667796833957660, guid: afa6ff308d484234a8e22bf50005e63a, type: 3}
   projectilePrefab: {fileID: 312925372390143014, guid: d4d4e258357f7ec4d83b70950c368b5a, type: 3}
 --- !u!50 &499203144

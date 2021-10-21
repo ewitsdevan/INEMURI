@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6480dffbc36493479c7551dc71b905e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meleeForward: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  meleeForward: {fileID: 2268890875204835108, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
   meleeSide: {fileID: 674243360881137637, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
   idleTime: 3
   speed: 5

@@ -3,7 +3,9 @@ guid: e6480dffbc36493479c7551dc71b905e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - meleeForward: {instanceID: 0}
+  - meleeSide: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
