@@ -157,9 +157,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6480dffbc36493479c7551dc71b905e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meleeForward: {fileID: 2268890875204835108, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
+  meleeForward: {fileID: 21300000, guid: 6c751e5c1afc4444c9c36d265f4a4897, type: 3}
   meleeSide: {fileID: 674243360881137637, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
-  idleTime: 2
+  idleTime: 0.5
   walkSpeed: 3
   attackSpeed: 6
   attackDistance: 10
@@ -220,7 +220,7 @@ Animator:
   m_GameObject: {fileID: 2261081523367187998}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 81b10d8e074bf9f4995f29490671e5f8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6faf90a3501cf7246a0e07d250f1347c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

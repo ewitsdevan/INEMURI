@@ -25,7 +25,7 @@ public class CharacterController : MonoBehaviour
     private Vector3 respawnPos;
 
     public int killcount;
-
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -35,25 +35,26 @@ public class CharacterController : MonoBehaviour
         player = GetComponent<Transform>();
         playerRend = player.GetComponent<SpriteRenderer>();
         playerRidg = GetComponent<Rigidbody2D>();
+
     }
+
     // Update is called once per frame
     void Update()
     {
         killcount = StaticVariables.EnemiesKilled;
         // Gets key input for sprites
         horizAxis = Input.GetAxis("Horizontal");
-        
 
         if (isJumping)
         {
             if (Input.GetKey(KeyCode.D))
             {
-                player.position += (new Vector3(playerSpeed / 150, 0, 0));
+                player.position += (new Vector3(playerSpeed / 150, 0, 0));                
             }
 
             if (Input.GetKey(KeyCode.A))
             {
-                player.position += (new Vector3(-playerSpeed / 150, 0, 0));
+                player.position += (new Vector3(-playerSpeed / 150, 0, 0));              
             }
         }
         else
@@ -61,6 +62,7 @@ public class CharacterController : MonoBehaviour
             if (Input.GetKey(KeyCode.D))
             {
                 player.position += (new Vector3(playerSpeed / 100, 0, 0));
+                
             }
             
             if (Input.GetKey(KeyCode.A))

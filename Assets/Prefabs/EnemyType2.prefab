@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5281dab9be6f2cf498514f283b720617, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 3
+  delay: 2
   spriteDelay: 0.5
   attackDistance: 15
   prefab: {fileID: 5019415135730610861, guid: b46145190be39fe439664942d853ab1b, type: 3}

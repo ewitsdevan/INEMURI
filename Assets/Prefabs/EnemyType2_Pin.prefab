@@ -70,6 +70,7 @@ GameObject:
   - component: {fileID: 5019415135730610862}
   - component: {fileID: 5019415135730610865}
   - component: {fileID: 5019415135730610864}
+  - component: {fileID: -8808918563493603567}
   m_Layer: 0
   m_Name: EnemyType2_Pin
   m_TagString: Enemy
@@ -156,7 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c362c0151a0c14fa8d1aea0b42a6ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinSpeed: 1
+  pinSpeed: 2
   offset: 180
 --- !u!50 &5019415135730610865
 Rigidbody2D:
@@ -205,3 +206,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 2}
   m_EdgeRadius: 0
+--- !u!95 &-8808918563493603567
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019415135730610861}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 46bf96cf8f3b1d2499c490e320b926f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
