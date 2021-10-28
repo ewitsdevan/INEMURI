@@ -9,7 +9,7 @@ public class MeleeEnemy : MonoBehaviour
     private SpriteRenderer spriteRend;
 
     public float idleTime;
-    private float speed;
+    private float meleeSpeed;
     public float walkSpeed;
     public float attackSpeed;
     public float attackDistance;
@@ -33,39 +33,42 @@ public class MeleeEnemy : MonoBehaviour
         {
             spriteRend.sprite = meleeSide;
             spriteRend.flipX = true;
-            transform.position = transform.position + new Vector3(1, 0, 0) * speed * Time.deltaTime;
+            transform.position = transform.position + new Vector3(1, 0, 0) * meleeSpeed * Time.deltaTime;
         }
         else if (turned == false && idle == false)
         {
             spriteRend.sprite = meleeSide;
             spriteRend.flipX = false;
-            transform.position = transform.position - new Vector3(1, 0, 0) * speed * Time.deltaTime;
+            transform.position = transform.position - new Vector3(1, 0, 0) * meleeSpeed * Time.deltaTime;
         }
 
         if(Vector3.Distance(transform.position, player.transform.position) <= attackDistance)
         {
-            speed = attackSpeed;
+            meleeSpeed = attackSpeed;
         }
         else
         {
-            speed = walkSpeed;
+            meleeSpeed = walkSpeed;
         }
     }
 
-    // Turn trigger
+    
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("EnemyBoundary"))
+        // Turn trigger
+        if (collision.gameObject.CompareTag("EnemyBoundary"))
         {
             spriteRend.sprite = meleeForward;
             idle = true;
             StartCoroutine(StartTurn());
         }
 
+        // Dies if shot
         if(collision.gameObject.CompareTag("PlayerWeapon"))
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            StaticVariables.EnemiesKilled += 1;
         }
     }
 

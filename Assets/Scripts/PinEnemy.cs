@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PinEnemy : MonoBehaviour
 {
-    public float speed;
+    public float pinSpeed;
     public float offset;
     private GameObject player;
 
@@ -22,7 +22,7 @@ public class PinEnemy : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(Vector3.forward * (angle + offset));
 
-        transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed/100);
+        transform.position = Vector3.MoveTowards(transform.position, player.transform.position, pinSpeed / 100);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

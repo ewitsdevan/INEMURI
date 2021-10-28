@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerProjectile : MonoBehaviour
 {
     private CharacterController player;
-    public float speed;
+    public float projectileSpeed;
     private Vector3 direction;
     private Vector3 curPos;
     public float length;
@@ -38,7 +38,7 @@ public class PlayerProjectile : MonoBehaviour
     void Update()
     {
         // Moves projectile
-        transform.position = transform.position + direction * speed * Time.deltaTime;
+        transform.position = transform.position + direction * projectileSpeed * Time.deltaTime;
 
         // Destroys projectile after certain distance
         if(transform.position.x >= curPos.x + length || transform.position.x <= curPos.x - length)

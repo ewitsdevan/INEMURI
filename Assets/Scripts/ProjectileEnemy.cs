@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PinCupEnemy : MonoBehaviour
+public class ProjectileEnemy : MonoBehaviour
 {
     public float delay;
     public float spriteDelay;
     public float attackDistance;
-    public GameObject pin;
+    public GameObject prefab;
 
     private bool spawn;
     private GameObject player;
@@ -40,7 +40,7 @@ public class PinCupEnemy : MonoBehaviour
     void SpawnPin()
     {
         spawn = false;
-        Instantiate(pin, transform.position, transform.rotation);
+        Instantiate(prefab, transform.position, transform.rotation);
         spriteRend.sprite = attack;
         StartCoroutine(SpriteDelay());
         StartCoroutine(SpawnDelay());
@@ -65,6 +65,7 @@ public class PinCupEnemy : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            StaticVariables.EnemiesKilled += 1;
         }
     }
 }

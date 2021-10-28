@@ -8,12 +8,13 @@ public class CharacterController : MonoBehaviour
     private Transform player;
     private SpriteRenderer playerRend;
     private Rigidbody2D playerRidg;
+    public GameObject projectilePrefab;
 
     public float jumpHeight;
     public float horizAxis;
     private bool isGrounded;
     private bool isJumping;
-    public float speed;
+    public float playerSpeed;
 
     public Sprite playerFront;
     public Sprite playerSide;
@@ -21,11 +22,16 @@ public class CharacterController : MonoBehaviour
     public Sprite playerJumpSide;
     public Sprite playerLand;
 
-    public GameObject projectilePrefab;
+    private Vector3 respawnPos;
+
+    public int killcount;
 
     // Start is called before the first frame update
     void Start()
     {
+        StaticVariables.Progress = 0;
+        StaticVariables.EnemiesKilled = 0;
+        respawnPos = transform.position;
         player = GetComponent<Transform>();
         playerRend = player.GetComponent<SpriteRenderer>();
         playerRidg = GetComponent<Rigidbody2D>();
@@ -33,6 +39,7 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        killcount = StaticVariables.EnemiesKilled;
         // Gets key input for sprites
         horizAxis = Input.GetAxis("Horizontal");
         
@@ -41,24 +48,24 @@ public class CharacterController : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.D))
             {
-                player.position += (new Vector3(speed / 150, 0, 0));
+                player.position += (new Vector3(playerSpeed / 150, 0, 0));
             }
 
             if (Input.GetKey(KeyCode.A))
             {
-                player.position += (new Vector3(-speed / 150, 0, 0));
+                player.position += (new Vector3(-playerSpeed / 150, 0, 0));
             }
         }
         else
         {
             if (Input.GetKey(KeyCode.D))
             {
-                player.position += (new Vector3(speed / 100, 0, 0));
+                player.position += (new Vector3(playerSpeed / 100, 0, 0));
             }
             
             if (Input.GetKey(KeyCode.A))
             {
-                player.position += (new Vector3(-speed / 100, 0, 0));
+                player.position += (new Vector3(-playerSpeed / 100, 0, 0));
             }
         }
         
@@ -114,6 +121,24 @@ public class CharacterController : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        // Checkpoints
+        if (collision.gameObject.CompareTag("Checkpoint"))
+        {
+            respawnPos = collision.gameObject.transform.position;
+            StaticVariables.Progress += 0.25f;
+            Destroy(collision.gameObject);
+        }
+
+        //Boss checkpoint
+        if (collision.gameObject.CompareTag("FinalCheckpoint"))
+        {
+            StaticVariables.Progress += 0.25f;
+            SceneManager.LoadScene(2);
+        }
+    }
+
     // While collision exists
     public void OnTriggerStay2D(Collider2D collision)
     {
@@ -129,14 +154,16 @@ public class CharacterController : MonoBehaviour
             }
         }
 
+        // Respawn when player falls
         if (collision.gameObject.CompareTag("Respawn"))
         {
-            SceneManager.LoadScene("GameScene");
+            transform.position = respawnPos - new Vector3(0, 5, 0);
         }
 
+        // Game over scene when player dies
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(3);
         }
     }
 

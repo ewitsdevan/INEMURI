@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Menu : MonoBehaviour
+public class GameOver : MonoBehaviour
 {
-    public void PlayButtonClick()
+    public void TryAgainClick()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void MenuClick()
+    {
+        SceneManager.LoadScene(0);
     }
 }

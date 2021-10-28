@@ -67,9 +67,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2261081523367187996}
   - component: {fileID: 2261081523367187999}
+  - component: {fileID: 2261081523367187997}
   - component: {fileID: 2261081523367187995}
   - component: {fileID: 2261081523367187994}
-  - component: {fileID: 2261081523367187997}
   - component: {fileID: 2261081523367187992}
   m_Layer: 0
   m_Name: EnemyType3
@@ -145,6 +145,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2261081523367187997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2261081523367187998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6480dffbc36493479c7551dc71b905e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meleeForward: {fileID: 2268890875204835108, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
+  meleeSide: {fileID: 674243360881137637, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
+  idleTime: 2
+  walkSpeed: 3
+  attackSpeed: 6
+  attackDistance: 10
 --- !u!61 &2261081523367187995
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -192,24 +210,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &2261081523367187997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2261081523367187998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6480dffbc36493479c7551dc71b905e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meleeForward: {fileID: 2268890875204835108, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
-  meleeSide: {fileID: 674243360881137637, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
-  idleTime: 2
-  walkSpeed: 3
-  attackSpeed: 6
-  attackDistance: 10
 --- !u!95 &2261081523367187992
 Animator:
   serializedVersion: 3
