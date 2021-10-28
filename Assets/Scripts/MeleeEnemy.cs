@@ -9,15 +9,21 @@ public class MeleeEnemy : MonoBehaviour
     private SpriteRenderer spriteRend;
 
     public float idleTime;
-    public float speed;
+    private float speed;
+    public float walkSpeed;
+    public float attackSpeed;
+    public float attackDistance;
 
     private bool turned;
     private bool idle;
+
+    private GameObject player;
 
     // Start is called before the first frame update
     void Start()
     {
         spriteRend = GetComponent<SpriteRenderer>();
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
@@ -34,6 +40,15 @@ public class MeleeEnemy : MonoBehaviour
             spriteRend.sprite = meleeSide;
             spriteRend.flipX = false;
             transform.position = transform.position - new Vector3(1, 0, 0) * speed * Time.deltaTime;
+        }
+
+        if(Vector3.Distance(transform.position, player.transform.position) <= attackDistance)
+        {
+            speed = attackSpeed;
+        }
+        else
+        {
+            speed = walkSpeed;
         }
     }
 
@@ -57,7 +72,7 @@ public class MeleeEnemy : MonoBehaviour
     // Waits some time before turning and walking for idle
     IEnumerator StartTurn()
     {
-        yield return new WaitForSeconds(idleTime);
+        yield return new WaitForSecondsRealtime(idleTime);
 
         if(turned)
         {

@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - EnemyBoundary
   - PlayerWeapon
+  - Wall
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
@@ -48,10 +50,13 @@ TagManager:
   - name: Background
     uniqueID: 1469433543
     locked: 0
-  - name: Player Platforms
+  - name: Platforms
     uniqueID: 3099916249
     locked: 0
-  - name: Player Level
+  - name: Enemies
+    uniqueID: 1179478017
+    locked: 0
+  - name: Player
     uniqueID: 1097324357
     locked: 0
   - name: Foreground

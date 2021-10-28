@@ -33,16 +33,33 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Gets key input
+        // Gets key input for sprites
         horizAxis = Input.GetAxis("Horizontal");
+        
 
-        if(isJumping)
+        if (isJumping)
         {
-            player.position += (new Vector3(horizAxis, 0, 0)) * (speed / 100) / 1.5f;
+            if (Input.GetKey(KeyCode.D))
+            {
+                player.position += (new Vector3(speed / 150, 0, 0));
+            }
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                player.position += (new Vector3(-speed / 150, 0, 0));
+            }
         }
         else
         {
-            player.position += (new Vector3(horizAxis, 0, 0)) * (speed / 100);
+            if (Input.GetKey(KeyCode.D))
+            {
+                player.position += (new Vector3(speed / 100, 0, 0));
+            }
+            
+            if (Input.GetKey(KeyCode.A))
+            {
+                player.position += (new Vector3(-speed / 100, 0, 0));
+            }
         }
         
 
@@ -50,6 +67,7 @@ public class CharacterController : MonoBehaviour
         // Sets walking sprite if grounded
         if (isGrounded && isJumping == false)
         {
+
             if (horizAxis > 0)
             {
                 playerRend.sprite = playerSide;
@@ -118,7 +136,7 @@ public class CharacterController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene(0);
         }
     }
 

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6579244020454435700}
   - component: {fileID: 7562735217569449914}
   m_Layer: 0
-  m_Name: Trigger
+  m_Name: Collider
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 2261081523367187997}
   - component: {fileID: 2261081523367187992}
   m_Layer: 0
-  m_Name: MeleeEnemy1
+  m_Name: EnemyType3
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,7 +86,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2261081523367187998}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -140, y: 10.44, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6579244020454435700}
@@ -132,7 +132,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1097324357
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 674243360881137637, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -206,8 +206,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meleeForward: {fileID: 2268890875204835108, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
   meleeSide: {fileID: 674243360881137637, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
-  idleTime: 3
-  speed: 5
+  idleTime: 2
+  walkSpeed: 3
+  attackSpeed: 6
+  attackDistance: 10
 --- !u!95 &2261081523367187992
 Animator:
   serializedVersion: 3
