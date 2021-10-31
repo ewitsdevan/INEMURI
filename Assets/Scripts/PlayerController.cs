@@ -3,24 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CharacterController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     private Transform player;
     private SpriteRenderer playerRend;
     private Rigidbody2D playerRidg;
     public GameObject projectilePrefab;
+    private AudioSource playerSound;
 
     public float jumpHeight;
     public float horizAxis;
     private bool isGrounded;
     private bool isJumping;
     public float playerSpeed;
+    public int lastAxis;
+    public float shootDelay;
+    private bool canShoot;
 
     public Sprite playerFront;
     public Sprite playerSide;
     public Sprite playerJump;
     public Sprite playerJumpSide;
-    public Sprite playerLand;
 
     private Vector3 respawnPos;
 
@@ -35,7 +38,8 @@ public class CharacterController : MonoBehaviour
         player = GetComponent<Transform>();
         playerRend = player.GetComponent<SpriteRenderer>();
         playerRidg = GetComponent<Rigidbody2D>();
-
+        playerSound = GetComponent<AudioSource>();
+        canShoot = true;
     }
 
     // Update is called once per frame
@@ -47,26 +51,30 @@ public class CharacterController : MonoBehaviour
 
         if (isJumping)
         {
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
             {
+                lastAxis = 1;
                 player.position += (new Vector3(playerSpeed / 150, 0, 0));                
             }
 
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
             {
+                lastAxis = -1;
                 player.position += (new Vector3(-playerSpeed / 150, 0, 0));              
             }
         }
         else
         {
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
             {
+                lastAxis = 1;
                 player.position += (new Vector3(playerSpeed / 100, 0, 0));
                 
             }
-            
-            if (Input.GetKey(KeyCode.A))
+
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
             {
+                lastAxis = -1;
                 player.position += (new Vector3(-playerSpeed / 100, 0, 0));
             }
         }
@@ -76,7 +84,6 @@ public class CharacterController : MonoBehaviour
         // Sets walking sprite if grounded
         if (isGrounded && isJumping == false)
         {
-
             if (horizAxis > 0)
             {
                 playerRend.sprite = playerSide;
@@ -92,7 +99,8 @@ public class CharacterController : MonoBehaviour
                 playerRend.sprite = playerFront;
             }
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            // Jump
+            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
             {
                 playerRidg.AddForce(new Vector2(0, jumpHeight), ForceMode2D.Impulse);
             }
@@ -114,12 +122,28 @@ public class CharacterController : MonoBehaviour
             {
                 playerRend.sprite = playerJump;
             }
+
+            playerSound.Stop();
         }
 
         // Projectile shooting
-        if(Input.GetKeyDown(KeyCode.Mouse0))
+        if(Input.GetKeyDown(KeyCode.Space) && canShoot)
         {
             Instantiate(projectilePrefab, transform.position, transform.rotation);
+            canShoot = false;
+            StartCoroutine(ShootDelay());
+        }
+
+        if (horizAxis != 0)
+        {
+            if (playerSound.isPlaying == false)
+            {
+                playerSound.Play();
+            }
+        }
+        else
+        {
+            playerSound.Stop();
         }
     }
 
@@ -144,22 +168,17 @@ public class CharacterController : MonoBehaviour
     // While collision exists
     public void OnTriggerStay2D(Collider2D collision)
     {
-        // Sets sprite as landing when player touches ground after jump
-        if(collision.gameObject.CompareTag("Ground"))
+        // Sets sprite as walking
+        if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
-
-            if(isJumping)
-            {
-                playerRend.sprite = playerLand;
-                isJumping = false;
-            }
+            isJumping = false;
         }
 
         // Respawn when player falls
         if (collision.gameObject.CompareTag("Respawn"))
         {
-            transform.position = respawnPos - new Vector3(0, 5, 0);
+            transform.position = respawnPos + new Vector3(10, 5, 0);
         }
 
         // Game over scene when player dies
@@ -178,5 +197,11 @@ public class CharacterController : MonoBehaviour
             isGrounded = false;
             isJumping = true;
         }
+    }
+
+    IEnumerator ShootDelay()
+    {
+        yield return new WaitForSecondsRealtime(shootDelay);
+        canShoot = true;
     }
 }

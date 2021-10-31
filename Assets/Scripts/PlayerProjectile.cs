@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerProjectile : MonoBehaviour
 {
-    private CharacterController player;
+    private PlayerController player;
     public float projectileSpeed;
     private Vector3 direction;
     private Vector3 curPos;
@@ -14,8 +14,7 @@ public class PlayerProjectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = FindObjectOfType<CharacterController>();
-        player.GetComponent<CharacterController>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>(); ;
 
         curPos = transform.position;
 
@@ -30,7 +29,15 @@ public class PlayerProjectile : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            
+            if (player.lastAxis < 0)
+            {
+                direction = new Vector3(-1, 0, 0);
+            }
+            else
+            {
+                direction = new Vector3(1, 0, 0);
+            }
         }
     }
 
