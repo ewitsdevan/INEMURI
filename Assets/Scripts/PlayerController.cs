@@ -28,6 +28,8 @@ public class PlayerController : MonoBehaviour
     private Vector3 respawnPos;
 
     public int killcount;
+
+    public AudioSource JumpClip;
   
     // Start is called before the first frame update
     void Start()
@@ -103,6 +105,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
             {
                 playerRidg.AddForce(new Vector2(0, jumpHeight), ForceMode2D.Impulse);
+                JumpClip.Play(0);
             }
         }
         else if (isGrounded == false && isJumping)

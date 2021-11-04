@@ -19,6 +19,9 @@ public class MeleeEnemy : MonoBehaviour
 
     private GameObject player;
 
+    public AudioSource Run;
+    public AudioSource Walk;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,27 +31,29 @@ public class MeleeEnemy : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {       
         if (turned && idle == false)
         {
             spriteRend.sprite = meleeSide;
             spriteRend.flipX = true;
-            transform.position = transform.position + new Vector3(1, 0, 0) * meleeSpeed * Time.deltaTime;
+            transform.position = transform.position + new Vector3(1, 0, 0) * meleeSpeed * Time.deltaTime;            
         }
         else if (turned == false && idle == false)
         {
             spriteRend.sprite = meleeSide;
             spriteRend.flipX = false;
-            transform.position = transform.position - new Vector3(1, 0, 0) * meleeSpeed * Time.deltaTime;
+            transform.position = transform.position - new Vector3(1, 0, 0) * meleeSpeed * Time.deltaTime;           
         }
 
         if(Vector3.Distance(transform.position, player.transform.position) <= attackDistance)
         {
             meleeSpeed = attackSpeed;
+            Run.Play(0);
         }
         else
         {
             meleeSpeed = walkSpeed;
+            Walk.Play(0);
         }
     }
 

@@ -16,11 +16,14 @@ public class ProjectileEnemy : MonoBehaviour
     public Sprite idle;
     public Sprite attack;
 
+    public AudioSource Shoot;
+
+
     void Start()
     {
         spriteRend = GetComponent<SpriteRenderer>();
         StartCoroutine(SpawnDelay());
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player");        
     }
 
     // Update is called once per frame
@@ -44,6 +47,7 @@ public class ProjectileEnemy : MonoBehaviour
         spriteRend.sprite = attack;
         StartCoroutine(SpriteDelay());
         StartCoroutine(SpawnDelay());
+        Shoot.Play(0);
     }
 
     // Delays each spawn
