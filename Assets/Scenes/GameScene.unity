@@ -2297,7 +2297,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 312925372390143014, guid: d4d4e258357f7ec4d83b70950c368b5a, type: 3}
   jumpHeight: 9.5
   horizAxis: 0
-  playerSpeed: 3
+  playerSpeed: 10
   lastAxis: 0
   shootDelay: 0.5
   playerFront: {fileID: -3796680971368186025, guid: 20f20044108503c48ab552a98bb07eab, type: 3}
