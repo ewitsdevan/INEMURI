@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c362c0151a0c14fa8d1aea0b42a6ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinSpeed: 5
+  pinSpeed: 2
   offset: 180
 --- !u!50 &5019415135730610865
 Rigidbody2D:
