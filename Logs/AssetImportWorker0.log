@@ -125,3 +125,89 @@ Received Import Request.
   path: Assets/Prefabs/EnemyType1_Staple.prefab
   artifactKey: Guid(a33fa365c3be9e2468ffda9717ce33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/EnemyType1_Staple.prefab using Guid(a33fa365c3be9e2468ffda9717ce33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd524d66e4cd655303d98f39dad6db0b5') in 0.010846 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3862.
+Total: 3.553000 ms (FindLiveObjects: 0.587300 ms CreateObjectMapping: 0.089600 ms MarkObjects: 2.854800 ms  DeleteObjects: 0.020300 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3862.
+Total: 2.904200 ms (FindLiveObjects: 0.355400 ms CreateObjectMapping: 0.089300 ms MarkObjects: 2.448700 ms  DeleteObjects: 0.010000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.517889 seconds.
+  path: Assets/Prefabs/EnemyType2_Pin.prefab
+  artifactKey: Guid(b46145190be39fe439664942d853ab1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyType2_Pin.prefab using Guid(b46145190be39fe439664942d853ab1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8552edbc4625838204fe4fc2815f1d') in 0.012316 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3862.
+Total: 3.013500 ms (FindLiveObjects: 0.361300 ms CreateObjectMapping: 0.082500 ms MarkObjects: 2.556200 ms  DeleteObjects: 0.012800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.677591 seconds.
+  path: Assets/Prefabs/EnemyType1_Staple.prefab
+  artifactKey: Guid(a33fa365c3be9e2468ffda9717ce33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyType1_Staple.prefab using Guid(a33fa365c3be9e2468ffda9717ce33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35892a2bbf16952d760376b078fa7022') in 0.009724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.775262 seconds.
+  path: Assets/Prefabs/EnemyType2_Pin.prefab
+  artifactKey: Guid(b46145190be39fe439664942d853ab1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyType2_Pin.prefab using Guid(b46145190be39fe439664942d853ab1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a1844b7a0d1a8c106aec7909cc89af') in 0.010553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.603031 seconds.
+  path: Assets/Prefabs/EnemyType2_Pin.prefab
+  artifactKey: Guid(b46145190be39fe439664942d853ab1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyType2_Pin.prefab using Guid(b46145190be39fe439664942d853ab1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e65c55ffd876b25e078513d27ccdcd4') in 0.011433 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.2 MB.
+System memory in use after: 66.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3862.
+Total: 2.897600 ms (FindLiveObjects: 0.348600 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.452200 ms  DeleteObjects: 0.010100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.722494 seconds.
+  path: Assets/Prefabs/EnemyType1_Staple.prefab
+  artifactKey: Guid(a33fa365c3be9e2468ffda9717ce33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyType1_Staple.prefab using Guid(a33fa365c3be9e2468ffda9717ce33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05ad2eb090b2028e76c505fb0cdda08') in 0.009499 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.4 MB.
+System memory in use after: 66.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3862.
+Total: 2.967200 ms (FindLiveObjects: 0.348400 ms CreateObjectMapping: 0.114500 ms MarkObjects: 2.485300 ms  DeleteObjects: 0.018300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
