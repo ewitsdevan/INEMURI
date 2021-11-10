@@ -2300,7 +2300,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 312925372390143014, guid: d4d4e258357f7ec4d83b70950c368b5a, type: 3}
   jumpHeight: 9.5
   horizAxis: 0
-  playerSpeed: 3
+  playerSpeed: 0.4
   lastAxis: 0
   shootDelay: 0.5
   spriteDelay: 0.3
@@ -2486,7 +2486,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e2294e8b0d05ffa429a939d6784b8010, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.395
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0

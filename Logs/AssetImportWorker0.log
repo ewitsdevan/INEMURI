@@ -950,3 +950,88 @@ Received Import Request.
   path: Assets/Scripts/PlayerController.cs
   artifactKey: Guid(9e8b32b6b8fb33b418299c06a1896695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/PlayerController.cs using Guid(9e8b32b6b8fb33b418299c06a1896695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ec88f000be7a2b60ed5cd733535ff1') in 0.007985 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.5 MB.
+System memory in use after: 103.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4289.
+Total: 3.187700 ms (FindLiveObjects: 0.438600 ms CreateObjectMapping: 0.088200 ms MarkObjects: 2.645000 ms  DeleteObjects: 0.014900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.5 MB.
+System memory in use after: 103.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4289.
+Total: 2.918300 ms (FindLiveObjects: 0.410600 ms CreateObjectMapping: 0.084300 ms MarkObjects: 2.408500 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 756.753155 seconds.
+  path: Assets/Prefabs/EnemyType2_Pin.prefab
+  artifactKey: Guid(b46145190be39fe439664942d853ab1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyType2_Pin.prefab using Guid(b46145190be39fe439664942d853ab1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fe43fd38f5505b5eb3f7293f4d30bb') in 0.050428 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4290.
+Total: 3.279300 ms (FindLiveObjects: 0.396700 ms CreateObjectMapping: 0.083900 ms MarkObjects: 2.785300 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4290.
+Total: 3.308300 ms (FindLiveObjects: 0.453700 ms CreateObjectMapping: 0.093600 ms MarkObjects: 2.746500 ms  DeleteObjects: 0.013600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 411.364060 seconds.
+  path: Assets/Prefabs/EnemyType2_Pin.prefab
+  artifactKey: Guid(b46145190be39fe439664942d853ab1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyType2_Pin.prefab using Guid(b46145190be39fe439664942d853ab1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ed58cbd6fef17174ef356a8efb7388') in 0.013551 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.6 MB.
+System memory in use after: 104.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4290.
+Total: 3.496500 ms (FindLiveObjects: 0.415700 ms CreateObjectMapping: 0.102500 ms MarkObjects: 2.961400 ms  DeleteObjects: 0.016100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 286.406582 seconds.
+  path: Assets/Prefabs/EnemyType2_Pin.prefab
+  artifactKey: Guid(b46145190be39fe439664942d853ab1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyType2_Pin.prefab using Guid(b46145190be39fe439664942d853ab1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae6959941e17c76680c325164137cdb') in 0.012760 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.8 MB.
+System memory in use after: 105.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4290.
+Total: 3.272400 ms (FindLiveObjects: 0.414000 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.760200 ms  DeleteObjects: 0.012200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

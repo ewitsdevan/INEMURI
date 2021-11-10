@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c362c0151a0c14fa8d1aea0b42a6ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinSpeed: 1
+  pinSpeed: 0.2
   offset: 180
 --- !u!50 &5019415135730610865
 Rigidbody2D:
@@ -239,7 +239,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7b8133e92f77b0d47a2b959b3bc1e2cc, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.614
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
