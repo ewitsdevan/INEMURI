@@ -18,12 +18,15 @@ public class PlayerController : MonoBehaviour
     public float playerSpeed;
     public int lastAxis;
     public float shootDelay;
+    public float spriteDelay;
     private bool canShoot;
 
     public Sprite playerFront;
     public Sprite playerSide;
     public Sprite playerJump;
     public Sprite playerJumpSide;
+    public Sprite playerStandShoot;
+    public bool playerCanStandShoot = false;
 
     private Vector3 respawnPos;
 
@@ -80,9 +83,7 @@ public class PlayerController : MonoBehaviour
                 player.position += (new Vector3(-playerSpeed / 100, 0, 0));
             }
         }
-        
-
-
+  
         // Sets walking sprite if grounded
         if (isGrounded && isJumping == false)
         {
@@ -96,7 +97,13 @@ public class PlayerController : MonoBehaviour
                 playerRend.sprite = playerSide;
                 playerRend.flipX = true;
             }
-            else
+            else if (horizAxis == 0 && Input.GetKeyDown(KeyCode.Space))
+            {
+                playerCanStandShoot = true;
+                playerRend.sprite = playerStandShoot;
+                StartCoroutine(SpriteDelay());
+            }
+            else if(horizAxis == 0 && playerCanStandShoot == false)
             {
                 playerRend.sprite = playerFront;
             }
@@ -133,7 +140,7 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && canShoot)
         {
             Instantiate(projectilePrefab, transform.position, transform.rotation);
-            canShoot = false;
+            canShoot = false;           
             StartCoroutine(ShootDelay());
         }
 
@@ -181,7 +188,7 @@ public class PlayerController : MonoBehaviour
         // Respawn when player falls
         if (collision.gameObject.CompareTag("Respawn"))
         {
-            transform.position = respawnPos + new Vector3(10, 5, 0);
+            SceneManager.LoadScene(3);
         }
 
         // Game over scene when player dies
@@ -206,5 +213,11 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(shootDelay);
         canShoot = true;
+    }
+
+    IEnumerator SpriteDelay()
+    {
+        yield return new WaitForSecondsRealtime(spriteDelay);
+        playerCanStandShoot = false;
     }
 }
