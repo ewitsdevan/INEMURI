@@ -16,7 +16,7 @@ public class StapleEnemy : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.position = transform.position - new Vector3(stapleSpeed / 100, 0 , 0);
 

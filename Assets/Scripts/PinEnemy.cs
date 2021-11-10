@@ -15,7 +15,7 @@ public class PinEnemy : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector2 direction = player.transform.position - transform.position;
         direction.Normalize();

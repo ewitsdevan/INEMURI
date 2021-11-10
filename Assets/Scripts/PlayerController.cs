@@ -47,25 +47,21 @@ public class PlayerController : MonoBehaviour
         canShoot = true;
     }
 
-    // Update is called once per frame
-    void Update()
+    //playerMovement
+    void FixedUpdate()
     {
-        killcount = StaticVariables.EnemiesKilled;
-        // Gets key input for sprites
-        horizAxis = Input.GetAxis("Horizontal");
-
         if (isJumping)
         {
             if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
             {
                 lastAxis = 1;
-                player.position += (new Vector3(playerSpeed / 150, 0, 0));                
+                player.position += (new Vector3(playerSpeed / 150, 0, 0));
             }
 
             if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
             {
                 lastAxis = -1;
-                player.position += (new Vector3(-playerSpeed / 150, 0, 0));              
+                player.position += (new Vector3(-playerSpeed / 150, 0, 0));
             }
         }
         else
@@ -74,7 +70,7 @@ public class PlayerController : MonoBehaviour
             {
                 lastAxis = 1;
                 player.position += (new Vector3(playerSpeed / 100, 0, 0));
-                
+
             }
 
             if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
@@ -83,7 +79,14 @@ public class PlayerController : MonoBehaviour
                 player.position += (new Vector3(-playerSpeed / 100, 0, 0));
             }
         }
-  
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        killcount = StaticVariables.EnemiesKilled;
+        // Gets key input for sprites
+        horizAxis = Input.GetAxis("Horizontal");
+
         // Sets walking sprite if grounded
         if (isGrounded && isJumping == false)
         {
