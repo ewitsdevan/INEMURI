@@ -7,14 +7,16 @@ public class LevelProgressUI : MonoBehaviour
 {
     private Slider progressBar;
 
+    public float progressSpeed;
+    
     void Start()
     {
         progressBar = GetComponent<Slider>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        progressBar.value = StaticVariables.Progress;
+        progressBar.value = Mathf.MoveTowards(progressBar.value, StaticVariables.Progress, progressSpeed * Time.deltaTime);
     }
 
 }
