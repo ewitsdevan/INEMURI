@@ -67,14 +67,14 @@ GameObject:
   m_Component:
   - component: {fileID: 2261081523367187996}
   - component: {fileID: 2261081523367187999}
-  - component: {fileID: 2261081523367187997}
   - component: {fileID: 2261081523367187995}
   - component: {fileID: 2261081523367187994}
   - component: {fileID: 2261081523367187992}
   - component: {fileID: -530321823594776172}
   - component: {fileID: -252505703225610242}
+  - component: {fileID: 4968899966223905001}
   m_Layer: 0
-  m_Name: EnemyType3
+  m_Name: EnemyTypeMelee
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -141,32 +141,12 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.12, y: 5.12}
+  m_Size: {x: 1.5, y: 4.04}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2261081523367187997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2261081523367187998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6480dffbc36493479c7551dc71b905e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meleeForward: {fileID: 21300000, guid: 6c751e5c1afc4444c9c36d265f4a4897, type: 3}
-  meleeSide: {fileID: 0}
-  idleTime: 1
-  walkSpeed: 3
-  attackSpeed: 6
-  attackDistance: 10
-  Run: {fileID: -252505703225610242}
-  Walk: {fileID: -530321823594776172}
 --- !u!61 &2261081523367187995
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -185,7 +165,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 5.12, y: 5.12}
-    newSize: {x: 5.12, y: 5.12}
+    newSize: {x: 1.5, y: 4.04}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -425,3 +405,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4968899966223905001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2261081523367187998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c57d91b7468204345abba726e2fc9502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meleeForward: {fileID: 0}
+  meleeSide: {fileID: 0}
+  idleTime: 0
+  walkSpeed: 0
+  attackSpeed: 0
+  attackDistance: 0
+  Run: {fileID: 0}
+  Walk: {fileID: 0}

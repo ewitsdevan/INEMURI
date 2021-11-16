@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Paper_Clip-Run
+  m_Name: Paper_Clip-Run_Tutorial
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -32,11 +32,11 @@ AnimationClip:
     - time: 0.51666665
       value: {fileID: -2426262209238138899, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
     - time: 0.5333333
-      value: {fileID: 21300000, guid: 6c751e5c1afc4444c9c36d265f4a4897, type: 3}
-    attribute: meleeSide
+      value: {fileID: 674243360881137637, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
+    attribute: m_Sprite
     path: 
-    classID: 114
-    script: {fileID: 11500000, guid: e6480dffbc36493479c7551dc71b905e, type: 3}
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -46,10 +46,10 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
-      attribute: 874837840
-      script: {fileID: 11500000, guid: e6480dffbc36493479c7551dc71b905e, type: 3}
-      typeID: 114
-      customType: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 674243360881137637, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
@@ -58,7 +58,7 @@ AnimationClip:
     - {fileID: 2574311867812579096, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
     - {fileID: 30113254574888323, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
     - {fileID: -2426262209238138899, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
-    - {fileID: 21300000, guid: 6c751e5c1afc4444c9c36d265f4a4897, type: 3}
+    - {fileID: 674243360881137637, guid: 060fd84eecdf1574d938a7c89e1e953b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
