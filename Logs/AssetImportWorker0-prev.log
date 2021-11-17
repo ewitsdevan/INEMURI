@@ -1,0 +1,701 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 31938 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/INEMURI
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63869
+Successfully changed project path to: D:/INEMURI
+D:/INEMURI
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 90.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/INEMURI/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'D:/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001281 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 96.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 98.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.4 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3850.
+Total: 2.590000 ms (FindLiveObjects: 0.372300 ms CreateObjectMapping: 0.085100 ms MarkObjects: 2.062300 ms  DeleteObjects: 0.068900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9e0de7d155abb215644ec978d6560e') in 0.027324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.134736 seconds.
+  path: Assets/Scenes/GameScene 1.unity
+  artifactKey: Guid(f5944b934dfb15b47bb53c22e0bc31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene 1.unity using Guid(f5944b934dfb15b47bb53c22e0bc31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a1f23517f9eb1b53153cc2438d0c9c') in 0.003902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.776784 seconds.
+  path: Assets/Scenes/Tutorial Level.unity
+  artifactKey: Guid(f5944b934dfb15b47bb53c22e0bc31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tutorial Level.unity using Guid(f5944b934dfb15b47bb53c22e0bc31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b937799b1d4ebd34260102676b370e85') in 0.003719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.000797 seconds.
+  path: Assets/Sprites/Environment/Desk.png
+  artifactKey: Guid(fa344152c049523479b2fcf1595a1a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Desk.png using Guid(fa344152c049523479b2fcf1595a1a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70719c7bd6b36abcb1aca8f1f2aa47da') in 0.154658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.281575 seconds.
+  path: Assets/Sprites/Environment/Desk.png
+  artifactKey: Guid(fa344152c049523479b2fcf1595a1a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Desk.png using Guid(fa344152c049523479b2fcf1595a1a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce81824984867097ab5d4151a9d93a1e') in 0.051238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 360.956916 seconds.
+  path: Assets/Sprites/UI/Tutorial
+  artifactKey: Guid(77aaa866f3a65244784689c1c0c165b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial using Guid(77aaa866f3a65244784689c1c0c165b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6ad634d95b2b7fb19df0659e2d43da') in 0.003248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.543860 seconds.
+  path: Assets/Sprites/UI/Tutorial/Cup.png
+  artifactKey: Guid(0b1f49ef63358a14bbc1d5851a97c3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/Cup.png using Guid(0b1f49ef63358a14bbc1d5851a97c3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69191c94e1ccdcb076bc9f16be3a1c97') in 0.015219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.282284 seconds.
+  path: Assets/Sprites/UI/Tutorial/Cup.png
+  artifactKey: Guid(0b1f49ef63358a14bbc1d5851a97c3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/Cup.png using Guid(0b1f49ef63358a14bbc1d5851a97c3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ff0cd785fd7a503fd77c62cb51d7b3') in 0.015140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.182019 seconds.
+  path: Assets/Sprites/UI/Tutorial/Jump & Shoot Control UI.png
+  artifactKey: Guid(1eae677d4437f524c83eb8e76608b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/Jump & Shoot Control UI.png using Guid(1eae677d4437f524c83eb8e76608b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ea9b8c2e7d965f5b32e54e35cf1368') in 0.014695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.090913 seconds.
+  path: Assets/Sprites/UI/Tutorial/Jump & Shoot Control UI.png
+  artifactKey: Guid(1eae677d4437f524c83eb8e76608b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/Jump & Shoot Control UI.png using Guid(1eae677d4437f524c83eb8e76608b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52845d41a5c376a34531d15eb27936f2') in 0.011854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.364512 seconds.
+  path: Assets/Sprites/UI/Tutorial/Jump & Shoot Control UI.png
+  artifactKey: Guid(1eae677d4437f524c83eb8e76608b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/Jump & Shoot Control UI.png using Guid(1eae677d4437f524c83eb8e76608b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da069fd1d50e013cf13dafb084bf15ae') in 0.012408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.806574 seconds.
+  path: Assets/Sprites/UI/Tutorial/MoveJump Control UI.png
+  artifactKey: Guid(9d7bc0cd0bfed534f9c1c8a443eebdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/MoveJump Control UI.png using Guid(9d7bc0cd0bfed534f9c1c8a443eebdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ecdb71ac1db4022748884c7e7fc9c3') in 0.016278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.009911 seconds.
+  path: Assets/Sprites/UI/Tutorial/MoveJump Control UI.png
+  artifactKey: Guid(9d7bc0cd0bfed534f9c1c8a443eebdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/MoveJump Control UI.png using Guid(9d7bc0cd0bfed534f9c1c8a443eebdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3a48a03226133045a24990b12b3f54') in 0.020185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.407565 seconds.
+  path: Assets/Sprites/UI/Tutorial/MoveLeft Control UI.png
+  artifactKey: Guid(4cf49eb11b3ddf24fa881768f37535c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/MoveLeft Control UI.png using Guid(4cf49eb11b3ddf24fa881768f37535c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d13732feba524aff67137272df39397') in 0.012889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.282433 seconds.
+  path: Assets/Sprites/UI/Tutorial/MoveLeft Control UI.png
+  artifactKey: Guid(4cf49eb11b3ddf24fa881768f37535c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/MoveLeft Control UI.png using Guid(4cf49eb11b3ddf24fa881768f37535c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cbdbc21c06a4a24d75f6168beb4b6d') in 0.011979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.799406 seconds.
+  path: Assets/Sprites/UI/Tutorial/MoveRight Control UI.png
+  artifactKey: Guid(59f0b1fbc327b1f46ae5fbb8cd2e9391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/MoveRight Control UI.png using Guid(59f0b1fbc327b1f46ae5fbb8cd2e9391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3522bfd62cce78afe0a53e0e619047db') in 0.018434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.909242 seconds.
+  path: Assets/Sprites/UI/Tutorial/MoveRight Control UI.png
+  artifactKey: Guid(59f0b1fbc327b1f46ae5fbb8cd2e9391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/MoveRight Control UI.png using Guid(59f0b1fbc327b1f46ae5fbb8cd2e9391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40cbc804fa551aaca165b2cb58f5cd9') in 0.011723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.817211 seconds.
+  path: Assets/Sprites/UI/Tutorial/Pin.png
+  artifactKey: Guid(9393526e295771d48b06c9a564f54fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/Pin.png using Guid(9393526e295771d48b06c9a564f54fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ffa2df647e737ac2bb2883731d921c') in 0.052101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.274810 seconds.
+  path: Assets/Sprites/UI/Tutorial/PaperClip.png
+  artifactKey: Guid(f80f2b9089f56bd4ba18dd0bccfae90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/PaperClip.png using Guid(f80f2b9089f56bd4ba18dd0bccfae90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4e3190bacbfb80e918a824f682c258') in 0.012669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.715052 seconds.
+  path: Assets/Sprites/UI/Tutorial/PaperClip.png
+  artifactKey: Guid(f80f2b9089f56bd4ba18dd0bccfae90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/PaperClip.png using Guid(f80f2b9089f56bd4ba18dd0bccfae90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6200524c0363eb6b7f624f75f6b87d') in 0.012655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.663615 seconds.
+  path: Assets/Sprites/UI/Tutorial/Pin.png
+  artifactKey: Guid(9393526e295771d48b06c9a564f54fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/Pin.png using Guid(9393526e295771d48b06c9a564f54fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68085d4ebaf05c920a2de6494153309') in 0.017527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.743358 seconds.
+  path: Assets/Sprites/UI/Tutorial/Shoot Control UI.png
+  artifactKey: Guid(6939941b52c995e46b9fca4213e42f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/Shoot Control UI.png using Guid(6939941b52c995e46b9fca4213e42f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd16d6e8d9df3d9aa24b34cf30f0202') in 0.012678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.114554 seconds.
+  path: Assets/Sprites/UI/Tutorial/Shoot Control UI.png
+  artifactKey: Guid(6939941b52c995e46b9fca4213e42f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/Shoot Control UI.png using Guid(6939941b52c995e46b9fca4213e42f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc657e74659627612692bb22a3a09b5') in 0.210821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.579204 seconds.
+  path: Assets/Sprites/UI/Tutorial/Stapler.png
+  artifactKey: Guid(7e7dcc32556852f42925ab07d6607fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/Stapler.png using Guid(7e7dcc32556852f42925ab07d6607fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660b38eebe659f98996adaee504f841a') in 0.016843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.135507 seconds.
+  path: Assets/Sprites/UI/Tutorial/Stapler.png
+  artifactKey: Guid(7e7dcc32556852f42925ab07d6607fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Tutorial/Stapler.png using Guid(7e7dcc32556852f42925ab07d6607fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96914d1c68c3ba59bb0b0c567bce6ffc') in 0.011713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 171.990160 seconds.
+  path: Assets/Sprites/Environment/Tutorial Leve
+  artifactKey: Guid(6249e9a47c5cd46489561f5db9ec7bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tutorial Leve using Guid(6249e9a47c5cd46489561f5db9ec7bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f936451e737cb8857e1dd647f31cb9') in 0.003723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.516558 seconds.
+  path: Assets/Sprites/Environment/Tutorial Level
+  artifactKey: Guid(6249e9a47c5cd46489561f5db9ec7bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tutorial Level using Guid(6249e9a47c5cd46489561f5db9ec7bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1938f065d1328e9471f3242e7c5606ac') in 0.003476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 295.571309 seconds.
+  path: Assets/Sprites/Enemy/Type 1 - Stapler
+  artifactKey: Guid(8e98d7daf614c5043bee84e45f3a78f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy/Type 1 - Stapler using Guid(8e98d7daf614c5043bee84e45f3a78f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f76d4ec034d4bb0d38c7dbbdb70c24') in 0.003967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.700163 seconds.
+  path: Assets/Prefabs/EnemyType3 1.prefab
+  artifactKey: Guid(79206953069b14648b237191f1015b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyType3 1.prefab using Guid(79206953069b14648b237191f1015b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfaf076d3cb7b9b751fa54a5ddd68c6') in 0.036053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.626773 seconds.
+  path: Assets/Prefabs/Tutorial Enemies
+  artifactKey: Guid(d7adfc3030e035948ba1f2aeabc21a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tutorial Enemies using Guid(d7adfc3030e035948ba1f2aeabc21a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082c60d3ed88487efe90d30e5c997eb3') in 0.003579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.316845 seconds.
+  path: Assets/Prefabs/Tutorial Enemies/EnemyType3 1.prefab
+  artifactKey: Guid(79206953069b14648b237191f1015b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tutorial Enemies/EnemyType3 1.prefab using Guid(79206953069b14648b237191f1015b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5b0f3f709699dc1a6f2acef1c6c175') in 0.012217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.790122 seconds.
+  path: Assets/Prefabs/Tutorial Enemies/EnemyTypeMelee.prefab
+  artifactKey: Guid(79206953069b14648b237191f1015b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tutorial Enemies/EnemyTypeMelee.prefab using Guid(79206953069b14648b237191f1015b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376ee669050bb1bbc405b7a9f7829bc2') in 0.573099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.536074 seconds.
+  path: Assets/Prefabs/Tutorial Enemies/EnemyTypeMelee.prefab
+  artifactKey: Guid(79206953069b14648b237191f1015b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tutorial Enemies/EnemyTypeMelee.prefab using Guid(79206953069b14648b237191f1015b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe7bbca07dad5df7c418ecd6e0d4c63') in 0.010520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.604150 seconds.
+  path: Assets/Scripts/MeleeEnemy1.cs
+  artifactKey: Guid(c57d91b7468204345abba726e2fc9502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MeleeEnemy1.cs using Guid(c57d91b7468204345abba726e2fc9502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf8cf305d126e3d1659be2815be9ba6') in 0.009868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.862299 seconds.
+  path: Assets/Scripts/MeleeEnemyTutorial.cs
+  artifactKey: Guid(c57d91b7468204345abba726e2fc9502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MeleeEnemyTutorial.cs using Guid(c57d91b7468204345abba726e2fc9502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa2ac01d28e627a55c5d23500d9501e') in 0.003153 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.9 MB.
+System memory in use after: 169.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4179.
+Total: 3.748800 ms (FindLiveObjects: 0.603900 ms CreateObjectMapping: 0.125900 ms MarkObjects: 2.991400 ms  DeleteObjects: 0.025700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.622436 seconds.
+  path: Assets/Scripts/MeleeEnemyTutorial.cs
+  artifactKey: Guid(c57d91b7468204345abba726e2fc9502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MeleeEnemyTutorial.cs using Guid(c57d91b7468204345abba726e2fc9502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23675470453d9b7dd6d2cfada86f4ed5') in 0.007962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.474953 seconds.
+  path: Assets/Prefabs/Tutorial Enemies/EnemyTypeMelee.prefab
+  artifactKey: Guid(79206953069b14648b237191f1015b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tutorial Enemies/EnemyTypeMelee.prefab using Guid(79206953069b14648b237191f1015b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37168f5fe44199d0003079f7341dea8f') in 0.051796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.263833 seconds.
+  path: Assets/Animations/Enemy
+  artifactKey: Guid(f328bcf62a0597c4696c2decf092a148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy using Guid(f328bcf62a0597c4696c2decf092a148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e354e0e9859c32dbda6a9b0c39b29456') in 0.015745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.384650 seconds.
+  path: Assets/Sprites/Enemy
+  artifactKey: Guid(07cf089fabd27e14d8fc5c9350904f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy using Guid(07cf089fabd27e14d8fc5c9350904f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4248a327e16d1c033248a66db33e6c42') in 0.002633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.447156 seconds.
+  path: Assets/Sprites/Enemy/Type 3 - Paper Clip
+  artifactKey: Guid(77093624e14cd5344ac48f5c2bdb6e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy/Type 3 - Paper Clip using Guid(77093624e14cd5344ac48f5c2bdb6e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5df6afe0a38a0ecda3780219d4bbbb') in 0.003630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 486.247132 seconds.
+  path: Assets/Sprites/Enemy/Type 2 - Pin Cup
+  artifactKey: Guid(e997ef37df665b142a5d495682536afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy/Type 2 - Pin Cup using Guid(e997ef37df665b142a5d495682536afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359c9b5e7d698a1e3290f82006bdb00a') in 0.003563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.188224 seconds.
+  path: Assets/Animations/Enemy/Stapler_Idle_Tutorial.anim
+  artifactKey: Guid(d84f95e3bfcbd2f42998200d823c0586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Stapler_Idle_Tutorial.anim using Guid(d84f95e3bfcbd2f42998200d823c0586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90445b531ce3b3b4f6ce744922f8f3cb') in 0.006463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.569262 seconds.
+  path: Assets/Animations/Enemy/Stapler_Controller_Tutorial.controller
+  artifactKey: Guid(956c453426538684b959f78ea2a190c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Stapler_Controller_Tutorial.controller using Guid(956c453426538684b959f78ea2a190c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64afc6debf8b7444f1436688c53890ff') in 0.005466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.960397 seconds.
+  path: Assets/Animations/Enemy/Stapler_Controller_Tutorial.controller
+  artifactKey: Guid(956c453426538684b959f78ea2a190c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Stapler_Controller_Tutorial.controller using Guid(956c453426538684b959f78ea2a190c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbe0eb01e5cc187b9576a0c1cc9743c') in 0.004673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 234.829600 seconds.
+  path: Assets/Animations/Enemy/Paper_Clip.controller
+  artifactKey: Guid(6faf90a3501cf7246a0e07d250f1347c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Paper_Clip.controller using Guid(6faf90a3501cf7246a0e07d250f1347c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5f3c0d01c6d22ad092430b42a96e3f') in 0.004604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.919977 seconds.
+  path: Assets/Animations/Enemy/Paper_Clip_Run_Tutorial.controller
+  artifactKey: Guid(d4f476e6c7d95584d8e7e917c51e0883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Paper_Clip_Run_Tutorial.controller using Guid(d4f476e6c7d95584d8e7e917c51e0883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24397322758f9295a795a3c61373de6d') in 0.004110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.804062 seconds.
+  path: Assets/Animations/Enemy/Paper_Clip-Run.anim
+  artifactKey: Guid(7b390679d9a987e45979e227010fc5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Paper_Clip-Run.anim using Guid(7b390679d9a987e45979e227010fc5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a40779a85dc51bcbea400f9d66bd21') in 0.004577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.094602 seconds.
+  path: Assets/Animations/Enemy/Pin.controller
+  artifactKey: Guid(46bf96cf8f3b1d2499c490e320b926f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Pin.controller using Guid(46bf96cf8f3b1d2499c490e320b926f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bcbeccf7abb1322c0c68fb6c712a7f') in 0.011471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.460024 seconds.
+  path: Assets/Animations/Enemy/Stapler_Idle_Tutorial.anim
+  artifactKey: Guid(d84f95e3bfcbd2f42998200d823c0586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Stapler_Idle_Tutorial.anim using Guid(d84f95e3bfcbd2f42998200d823c0586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a770ce17b4de80b043a4c8f2e827b27') in 0.003448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 159.762725 seconds.
+  path: Assets/Animations/Enemy/Paper_Clip-Run.anim
+  artifactKey: Guid(7b390679d9a987e45979e227010fc5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Paper_Clip-Run.anim using Guid(7b390679d9a987e45979e227010fc5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b23ee87d010de1f9cd9a256af5fd58b') in 0.003770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 213.818322 seconds.
+  path: Assets/Animations/Enemy/Paper_Clip-Run.anim
+  artifactKey: Guid(7b390679d9a987e45979e227010fc5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Paper_Clip-Run.anim using Guid(7b390679d9a987e45979e227010fc5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551c38f7eadc5642a1820c0bb3c8f416') in 0.003858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.349136 seconds.
+  path: Assets/Prefabs/EnemyType3.prefab
+  artifactKey: Guid(1cef07042b8573f44936e5d51a0124b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyType3.prefab using Guid(1cef07042b8573f44936e5d51a0124b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6157587ae009233ba481b216d76df4b') in 0.013461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.377415 seconds.
+  path: Assets/MoveLeft Control UI.png
+  artifactKey: Guid(6aa03617d554e4046a63de8a9b0b728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveLeft Control UI.png using Guid(6aa03617d554e4046a63de8a9b0b728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40206a80d873bb8b380bc8659d31a02') in 0.026024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 434.255794 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821c065aadda0225e1c3df7ae8269b73') in 0.003393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.516264 seconds.
+  path: Assets/Scenes/Tutorial Level.unity
+  artifactKey: Guid(f5944b934dfb15b47bb53c22e0bc31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tutorial Level.unity using Guid(f5944b934dfb15b47bb53c22e0bc31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b415c032d57e223e24c775355fb5cd7') in 0.003408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.627293 seconds.
+  path: Assets/Animations/Enemy/Paper_Clip-Run.anim
+  artifactKey: Guid(7b390679d9a987e45979e227010fc5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Paper_Clip-Run.anim using Guid(7b390679d9a987e45979e227010fc5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d2144bd264174e51da5967636deaeb') in 0.003597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.036344 seconds.
+  path: Assets/Animations/Enemy/Paper_Clip-Run 1.anim
+  artifactKey: Guid(f7537d9c86189bd4387081a70bd05f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Paper_Clip-Run 1.anim using Guid(f7537d9c86189bd4387081a70bd05f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930d1e99214f1692395043530084c55c') in 0.004782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.508284 seconds.
+  path: Assets/Animations/Enemy/Paper_Clip-Run_Tutorial.anim
+  artifactKey: Guid(f7537d9c86189bd4387081a70bd05f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Paper_Clip-Run_Tutorial.anim using Guid(f7537d9c86189bd4387081a70bd05f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e96349270361a92432d38382a5262a') in 0.004455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.752219 seconds.
+  path: Assets/Animations/Enemy/Paper_Clip.controller
+  artifactKey: Guid(6faf90a3501cf7246a0e07d250f1347c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Paper_Clip.controller using Guid(6faf90a3501cf7246a0e07d250f1347c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc72bab45b79299e985ef81ab742242') in 0.003936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.556683 seconds.
+  path: Assets/Animations/Enemy/Paper_Clip 1.controller
+  artifactKey: Guid(06f818e3518f86b46bd8de48f46145e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Paper_Clip 1.controller using Guid(06f818e3518f86b46bd8de48f46145e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da689c42d39be73979cea963a4474e7') in 0.004749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.651878 seconds.
+  path: Assets/Animations/Enemy/Paper_Clip_Tutorial.controller
+  artifactKey: Guid(06f818e3518f86b46bd8de48f46145e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Paper_Clip_Tutorial.controller using Guid(06f818e3518f86b46bd8de48f46145e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619857f34805705a92e8a124ef47e503') in 0.004360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 218.177165 seconds.
+  path: Assets/Animations/Enemy/Pin_Movement.anim
+  artifactKey: Guid(efba26edd5bdb14429843e50281ed46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Pin_Movement.anim using Guid(efba26edd5bdb14429843e50281ed46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38052551047594f586ca0a745cbb17cf') in 0.186922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.126379 seconds.
+  path: Assets/Animations/Enemy/Pin_Movement 1.anim
+  artifactKey: Guid(48b43af378030e146a8d98d5266170f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Pin_Movement 1.anim using Guid(48b43af378030e146a8d98d5266170f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678ef82adf34848a76317a288aa10d03') in 0.004413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.108436 seconds.
+  path: Assets/Animations/Enemy/Pin 1.controller
+  artifactKey: Guid(1110a704b6bdff7419d9b696554f30a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Pin 1.controller using Guid(1110a704b6bdff7419d9b696554f30a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3ff033b380aaf2784379ae935d28d4') in 0.004723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.140885 seconds.
+  path: Assets/Animations/Enemy/Pin_Tutorial.controller
+  artifactKey: Guid(1110a704b6bdff7419d9b696554f30a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Pin_Tutorial.controller using Guid(1110a704b6bdff7419d9b696554f30a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6869726e406ac02ff7dc0aa3fa2c969a') in 0.004441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.690574 seconds.
+  path: Assets/Animations/Enemy/Pin_Movement 1.anim
+  artifactKey: Guid(48b43af378030e146a8d98d5266170f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Pin_Movement 1.anim using Guid(48b43af378030e146a8d98d5266170f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f445fd3e54ab391d41248aacf62e295') in 0.003814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.103480 seconds.
+  path: Assets/Animations/Enemy/Pin_Tutorial.anim
+  artifactKey: Guid(48b43af378030e146a8d98d5266170f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Pin_Tutorial.anim using Guid(48b43af378030e146a8d98d5266170f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db95cda6f0646fc5f3fd1920d37e4713') in 0.003933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.055560 seconds.
+  path: Assets/Animations/Enemy/Cup_Tutorial.controller
+  artifactKey: Guid(add5ce8e630681245a2c38951d8d7c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Cup_Tutorial.controller using Guid(add5ce8e630681245a2c38951d8d7c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9345090a14fa8b454140eeabe402a224') in 0.004838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.086404 seconds.
+  path: Assets/Animations/Enemy/Cup_Tutorial.anim
+  artifactKey: Guid(378e5e199bbce7f4b965e3747aa1159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Cup_Tutorial.anim using Guid(378e5e199bbce7f4b965e3747aa1159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe30a0cdbf47010e836adfa5f2017dd') in 0.084375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.871614 seconds.
+  path: Assets/Animations/Enemy/Cup_Tutorial.anim
+  artifactKey: Guid(378e5e199bbce7f4b965e3747aa1159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/Cup_Tutorial.anim using Guid(378e5e199bbce7f4b965e3747aa1159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd18b11b11a17cc487161d9c5bb965a9') in 0.003616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.095470 seconds.
+  path: Assets/Animations/Menus/Tutorial
+  artifactKey: Guid(de29c35019056c546a82f50bfeb40e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial using Guid(de29c35019056c546a82f50bfeb40e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87deb8bac0dba1bd7769cdd44c35bc8') in 0.003031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.138514 seconds.
+  path: Assets/Animations/Menus/Tutorial/Move_Left.controller
+  artifactKey: Guid(d6c0698a9db6bb74fa5d6a9fd459986b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Move_Left.controller using Guid(d6c0698a9db6bb74fa5d6a9fd459986b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b355570c32ecbab602906b6fb72274') in 0.004392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.259503 seconds.
+  path: Assets/Animations/Menus/Tutorial/Move_Right.controller
+  artifactKey: Guid(d6c0698a9db6bb74fa5d6a9fd459986b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Move_Right.controller using Guid(d6c0698a9db6bb74fa5d6a9fd459986b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42951ce694e10abf9b1cc2e08202a288') in 0.004065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.046357 seconds.
+  path: Assets/Animations/Menus/Tutorial/Move_Right.anim
+  artifactKey: Guid(f148f3f2306130b4ab050fe6537ce04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Move_Right.anim using Guid(f148f3f2306130b4ab050fe6537ce04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1d3746f14044783a4276e4f7017da3') in 0.003509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 183.522913 seconds.
+  path: Assets/Animations/Menus/Tutorial/Move_Right.controller
+  artifactKey: Guid(d6c0698a9db6bb74fa5d6a9fd459986b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Move_Right.controller using Guid(d6c0698a9db6bb74fa5d6a9fd459986b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c8721b647aed01c52bdd79fc09ed07') in 0.003895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.562761 seconds.
+  path: Assets/Animations/Menus/Tutorial/Move_Right.anim
+  artifactKey: Guid(f148f3f2306130b4ab050fe6537ce04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Move_Right.anim using Guid(f148f3f2306130b4ab050fe6537ce04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b7b55dd308fb3798f0d9f0e9954664') in 0.004026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.205713 seconds.
+  path: Assets/Animations/Menus/Tutorial/Move_Left.controller
+  artifactKey: Guid(c4d58c13253c95e4492cc435b687b9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Move_Left.controller using Guid(c4d58c13253c95e4492cc435b687b9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a9e373eb94c360e52da610c36a9d4b') in 0.003716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.934200 seconds.
+  path: Assets/Animations/Menus/Tutorial/Move_Left.anim
+  artifactKey: Guid(351dc89de22e5fe42ab7680a54d6ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Move_Left.anim using Guid(351dc89de22e5fe42ab7680a54d6ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546f128f4ec74d32256a68e0937c94b3') in 0.003515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.517110 seconds.
+  path: Assets/Animations/Menus/Tutorial/Move_Jump.controller
+  artifactKey: Guid(e3a120b1dc31c6b4da30ca16e15e20a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Move_Jump.controller using Guid(e3a120b1dc31c6b4da30ca16e15e20a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a53ea309d2c44976aa8df7bd383d628') in 0.004124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.711363 seconds.
+  path: Assets/Animations/Menus/Tutorial/Move_Jump.anim
+  artifactKey: Guid(3f1e07afd8a53344dac14e9bf71e9026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Move_Jump.anim using Guid(3f1e07afd8a53344dac14e9bf71e9026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3c9a54361f0bb573f1875c822dbe26') in 0.003762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.256512 seconds.
+  path: Assets/Animations/Menus/Tutorial/Move_Left.anim
+  artifactKey: Guid(351dc89de22e5fe42ab7680a54d6ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Move_Left.anim using Guid(351dc89de22e5fe42ab7680a54d6ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a144bc6bc0444019a2872998ed213df3') in 0.003867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.431045 seconds.
+  path: Assets/Animations/Menus/Tutorial/Move_Left.controller
+  artifactKey: Guid(c4d58c13253c95e4492cc435b687b9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Move_Left.controller using Guid(c4d58c13253c95e4492cc435b687b9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cb1d36d0c4c392b7b495b39cbf3442') in 0.004747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.029185 seconds.
+  path: Assets/Animations/Menus/Tutorial/Move_Right.anim
+  artifactKey: Guid(f148f3f2306130b4ab050fe6537ce04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Move_Right.anim using Guid(f148f3f2306130b4ab050fe6537ce04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4c2b5ab27233e01285f209d2c6241e') in 0.003700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.828689 seconds.
+  path: Assets/Animations/Menus/Tutorial/Shoot.controller
+  artifactKey: Guid(e6e289ae765db70478f5e69e8ecdd2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Shoot.controller using Guid(e6e289ae765db70478f5e69e8ecdd2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1825e44cd65a36138d12114647e675d5') in 0.004691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.706401 seconds.
+  path: Assets/Animations/Menus/Tutorial/Shoot.anim
+  artifactKey: Guid(94a8dabdf60bc7640a34010f9a92ad7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Shoot.anim using Guid(94a8dabdf60bc7640a34010f9a92ad7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ced2b7ea1490bfbb308bd8b7fc5d21') in 0.003594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.758819 seconds.
+  path: Assets/Animations/Menus/Tutorial/Jump_Shoot.controller
+  artifactKey: Guid(a919354a45db975419c98839dad284b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Jump_Shoot.controller using Guid(a919354a45db975419c98839dad284b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5881ca2fac8d8417c3d0a769d2083ba5') in 0.004230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.202136 seconds.
+  path: Assets/Animations/Menus/Tutorial/Jump_Shoot.anim
+  artifactKey: Guid(84b7504333ff59c4cbaaa7b36006ab19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Jump_Shoot.anim using Guid(84b7504333ff59c4cbaaa7b36006ab19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e97c4405d1acb4038628588bc40830a') in 0.003658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 205.290949 seconds.
+  path: Assets/Animations/Menus/Tutorial/Jump_Shoot.anim
+  artifactKey: Guid(84b7504333ff59c4cbaaa7b36006ab19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Jump_Shoot.anim using Guid(84b7504333ff59c4cbaaa7b36006ab19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1ea62bd38d37c5dd41103ed5a3b346') in 0.003860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.375960 seconds.
+  path: Assets/Animations/Menus/Tutorial/Stapler_UI.controller
+  artifactKey: Guid(994b29a83342ec94e9f2cb57bcc258ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Stapler_UI.controller using Guid(994b29a83342ec94e9f2cb57bcc258ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9951a827db509939ba675a891dfdb575') in 0.004230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.849518 seconds.
+  path: Assets/Animations/Menus/Tutorial/Stapler_UI.anim
+  artifactKey: Guid(50183da9cbf03e74fad8d2e545aaf665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Stapler_UI.anim using Guid(50183da9cbf03e74fad8d2e545aaf665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b651d591af68da848119323794a39f4') in 0.003601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.975821 seconds.
+  path: Assets/Animations/Menus/Tutorial/Stapler_UI.anim
+  artifactKey: Guid(50183da9cbf03e74fad8d2e545aaf665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Stapler_UI.anim using Guid(50183da9cbf03e74fad8d2e545aaf665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab058be5d5cf47170bca95f6c46a80d0') in 0.003586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.432966 seconds.
+  path: Assets/Animations/Menus/Tutorial/PaperClip_UI.controller
+  artifactKey: Guid(1efb3d334ac54ef4199b36c09be09972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/PaperClip_UI.controller using Guid(1efb3d334ac54ef4199b36c09be09972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285666850a9761cca52493c8ace81291') in 0.003937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.224594 seconds.
+  path: Assets/Animations/Menus/Tutorial/PaperClip_UI.anim
+  artifactKey: Guid(60686b49a0e8d764db468cda9d895bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/PaperClip_UI.anim using Guid(60686b49a0e8d764db468cda9d895bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88001bcdbc4064783f78d6dbf7aafcf') in 0.003422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.327998 seconds.
+  path: Assets/Animations/Menus/Tutorial/PaperClip_UI.anim
+  artifactKey: Guid(60686b49a0e8d764db468cda9d895bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/PaperClip_UI.anim using Guid(60686b49a0e8d764db468cda9d895bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217aa9dd018d6fbc64dab8f99e350459') in 0.003389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.567753 seconds.
+  path: Assets/Animations/Menus/Tutorial/Pin_UI.controller
+  artifactKey: Guid(3e143e602dbf0cc40927048ddf40275c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Pin_UI.controller using Guid(3e143e602dbf0cc40927048ddf40275c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90eba112d060e5b3ce34338c8bfa71d') in 0.004517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.742440 seconds.
+  path: Assets/Animations/Menus/Tutorial/Pin_UI.anim
+  artifactKey: Guid(e54ef80526ec6e54091d196fdc6269ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Pin_UI.anim using Guid(e54ef80526ec6e54091d196fdc6269ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d53e46b19a5ef07cdc4953dce9d7eb') in 0.003486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.332240 seconds.
+  path: Assets/Animations/Menus/Tutorial/Pin_UI.anim
+  artifactKey: Guid(e54ef80526ec6e54091d196fdc6269ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Pin_UI.anim using Guid(e54ef80526ec6e54091d196fdc6269ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31993629711bc69ea36435f259fa0a91') in 0.003599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.787637 seconds.
+  path: Assets/Animations/Menus/Tutorial/Cup_UI.controller
+  artifactKey: Guid(f1e07cfa1cae4684589b98516ac9920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Cup_UI.controller using Guid(f1e07cfa1cae4684589b98516ac9920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3ea5d3d67fbcf9e208964384d11051') in 0.003826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.887522 seconds.
+  path: Assets/Animations/Menus/Tutorial/Cup_UI.anim
+  artifactKey: Guid(0e96287aa1e41954ca6bb4a8cd562ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Cup_UI.anim using Guid(0e96287aa1e41954ca6bb4a8cd562ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9390d5d66ae91f185813c2bb6f0a88b9') in 0.003740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.642233 seconds.
+  path: Assets/Animations/Menus/Tutorial/Cup_UI.controller
+  artifactKey: Guid(f1e07cfa1cae4684589b98516ac9920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Cup_UI.controller using Guid(f1e07cfa1cae4684589b98516ac9920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7199c00f09fd1b1902fb1b2692cc829') in 0.003816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.241373 seconds.
+  path: Assets/Animations/Menus/Tutorial/Cup_UI.anim
+  artifactKey: Guid(0e96287aa1e41954ca6bb4a8cd562ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Cup_UI.anim using Guid(0e96287aa1e41954ca6bb4a8cd562ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef37c895e6fa8dd9511c344816bc6c6') in 0.003979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.699301 seconds.
+  path: Assets/Animations/Menus/Tutorial/Cup_UI.anim
+  artifactKey: Guid(0e96287aa1e41954ca6bb4a8cd562ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Menus/Tutorial/Cup_UI.anim using Guid(0e96287aa1e41954ca6bb4a8cd562ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5915dc1920c0bd029409b1fe4f95dc') in 0.022449 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
