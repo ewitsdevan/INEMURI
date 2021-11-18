@@ -1,140 +1,591 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 31938 MB
+OS: 'Windows 10 Home; OS build 22000.346; Version 2009; 64bit' Language: 'en' Physical Memory: 16325 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.1.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/INEMURI
+C:/Users/Devan/Desktop/Unity/INEMURI
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64483
-Successfully changed project path to: D:/INEMURI
-D:/INEMURI
+59679
+Successfully changed project path to: C:/Users/Devan/Desktop/Unity/INEMURI
+C:/Users/Devan/Desktop/Unity/INEMURI
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 91.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 101.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
-[Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/INEMURI/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Devan/Desktop/Unity/INEMURI/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
     Vendor:   NVIDIA
-    VRAM:     8043 MB
+    VRAM:     8050 MB
     Driver:   30.0.14.9649
 Initialize mono
-Mono path[0] = 'D:/Unity/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001309 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001559 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 95.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.316 seconds
+- Completed reload, in  1.752 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003598 seconds.
+Registered in 0.003478 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 95.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.111 seconds
+- Completed reload, in  1.103 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.4 MB.
-System memory in use after: 128.6 MB.
+Unloading 3394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3851.
-Total: 2.988100 ms (FindLiveObjects: 0.394900 ms CreateObjectMapping: 0.100500 ms MarkObjects: 2.424400 ms  DeleteObjects: 0.067000 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3847.
+Total: 2.508700 ms (FindLiveObjects: 0.279000 ms CreateObjectMapping: 0.196100 ms MarkObjects: 1.928000 ms  DeleteObjects: 0.104600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites
-  artifactKey: Guid(a3d5ce4ff1bb90d42a233e82bbe58b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(a3d5ce4ff1bb90d42a233e82bbe58b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9584205c5b71279205079a164e4361') in 0.008034 seconds 
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4b1eceaec7adff1f65861706b704ec') in 0.047461 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004055 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3851.
+Total: 2.297700 ms (FindLiveObjects: 0.273200 ms CreateObjectMapping: 0.193600 ms MarkObjects: 1.741500 ms  DeleteObjects: 0.088100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004349 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3849.
+Total: 2.275500 ms (FindLiveObjects: 0.244900 ms CreateObjectMapping: 0.164500 ms MarkObjects: 1.770600 ms  DeleteObjects: 0.094700 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 2.121953 seconds.
+  Time since last request: 688.311124 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72dbc26a5b62184993dfb8750137558') in 0.017742 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3851.
+Total: 2.572500 ms (FindLiveObjects: 0.282700 ms CreateObjectMapping: 0.187100 ms MarkObjects: 1.991300 ms  DeleteObjects: 0.110500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.284139 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96b2bee64046c09ede93edb88263892') in 0.008231 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005354 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3853.
+Total: 2.443500 ms (FindLiveObjects: 0.258700 ms CreateObjectMapping: 0.171700 ms MarkObjects: 1.910500 ms  DeleteObjects: 0.101500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.727007 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbc45ee2ab13d02bbbad94015235f41') in 0.007161 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3855.
+Total: 2.351700 ms (FindLiveObjects: 0.239800 ms CreateObjectMapping: 0.154800 ms MarkObjects: 1.858900 ms  DeleteObjects: 0.097300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.539614 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ba6bf4b079d9e5e9e1a6144127d89c') in 0.010908 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003559 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3857.
+Total: 2.420100 ms (FindLiveObjects: 0.252300 ms CreateObjectMapping: 0.169100 ms MarkObjects: 1.901000 ms  DeleteObjects: 0.096900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.596679 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb129bc7e83e3d24d12c12cf37d6f97') in 0.006994 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3859.
+Total: 2.505000 ms (FindLiveObjects: 0.303200 ms CreateObjectMapping: 0.194200 ms MarkObjects: 1.910500 ms  DeleteObjects: 0.096200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1092.462379 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fd2c76810e9d40103398cd5b908eb9') in 0.015769 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.942 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3861.
+Total: 2.437000 ms (FindLiveObjects: 0.267800 ms CreateObjectMapping: 0.190800 ms MarkObjects: 1.872500 ms  DeleteObjects: 0.104900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.927849 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9efbf7242a53dcf9f011a28c6cdf2f') in 0.009128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.541228 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c623b6b2da4913fca3a90d402380728b') in 0.008419 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3863.
+Total: 2.807700 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.177500 ms MarkObjects: 2.258200 ms  DeleteObjects: 0.116400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.969859 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503125572d85111aa00cf48ea4c95c47') in 0.007842 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3865.
+Total: 3.098100 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.178400 ms MarkObjects: 2.550200 ms  DeleteObjects: 0.114400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.498401 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cb338b091c9c0d769fdd158fd2f3e9') in 0.010831 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004794 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3867.
+Total: 2.317700 ms (FindLiveObjects: 0.244200 ms CreateObjectMapping: 0.161300 ms MarkObjects: 1.818800 ms  DeleteObjects: 0.092500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 553.012930 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a4fcd49f152e268ef1d57da44639f1') in 0.011443 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003244 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3869.
+Total: 2.418200 ms (FindLiveObjects: 0.271100 ms CreateObjectMapping: 0.159800 ms MarkObjects: 1.888300 ms  DeleteObjects: 0.098200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.852829 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bacd953b0ce0e1a12c9a4204be5cbfe') in 0.012129 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3871.
+Total: 2.316700 ms (FindLiveObjects: 0.229400 ms CreateObjectMapping: 0.141400 ms MarkObjects: 1.852800 ms  DeleteObjects: 0.092300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.607090 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7c7aa6eb8175f00ce9431db88bab8c') in 0.011437 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3873.
+Total: 2.941100 ms (FindLiveObjects: 0.264100 ms CreateObjectMapping: 0.168800 ms MarkObjects: 2.396400 ms  DeleteObjects: 0.110900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.338381 seconds.
+  path: Assets/Scripts/BossBattleManager.cs
+  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaa461aaa0d836fe7db0fa7eb7803d6') in 0.009429 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3875.
+Total: 2.714800 ms (FindLiveObjects: 0.318900 ms CreateObjectMapping: 0.227700 ms MarkObjects: 2.052600 ms  DeleteObjects: 0.114400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.228305 seconds.
+  path: Assets/Sprites/Environment/Prototype_v2.psb
+  artifactKey: Guid(5703c8658d4e0a945aceee8f88359618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Prototype_v2.psb using Guid(5703c8658d4e0a945aceee8f88359618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4760532a26da21b8e8f2926401030c52') in 0.478549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.266751 seconds.
+  path: Assets/Sprites/Environment/Level
+  artifactKey: Guid(16108b15397eb854c9793533de78e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Level using Guid(16108b15397eb854c9793533de78e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3692e88d822d56a43295e8ec0a01d455') in 0.008240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.612695 seconds.
+  path: Assets/Sprites/Environment/Level/Background Barriers.png
+  artifactKey: Guid(0f3972b428b08a643b5619aaae85e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Level/Background Barriers.png using Guid(0f3972b428b08a643b5619aaae85e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0767e312731fdc55670ab8444191308') in 0.180772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.467670 seconds.
+  path: Assets/Sprites/Environment/Level/Deco_Foreground.png
+  artifactKey: Guid(4e7e7e770ab6aec40bfbd50ea3d52e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Level/Deco_Foreground.png using Guid(4e7e7e770ab6aec40bfbd50ea3d52e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300b2fdd31601a7ef1a6f70c7f1458be') in 0.104317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.669071 seconds.
+  path: Assets/Sprites/Environment/Level/Foreground.png
+  artifactKey: Guid(db2a9e9dae087564f85f854dd0452c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Level/Foreground.png using Guid(db2a9e9dae087564f85f854dd0452c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4feadfdf597ee4fd2955e0463d8f1cce') in 0.075293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.892910 seconds.
+  path: Assets/Sprites/Environment/Level/Player Background.png
+  artifactKey: Guid(da42c02c27ec31148b7e233cb82b440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Level/Player Background.png using Guid(da42c02c27ec31148b7e233cb82b440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09cefba432d9510ec57581947cc3db7') in 0.087164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.928311 seconds.
+  path: Assets/Sprites/Environment/Level/Player Ground.png
+  artifactKey: Guid(6917aead97d9cee4690cff1dbca47e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Level/Player Ground.png using Guid(6917aead97d9cee4690cff1dbca47e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f26afef6066aa64a8f8716b91d1a347') in 0.044424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.658721 seconds.
+  path: Assets/Sprites/Environment/Prototype_v2_Background.jpg
+  artifactKey: Guid(6055f7ad442791241a2843ab9188a086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Prototype_v2_Background.jpg using Guid(6055f7ad442791241a2843ab9188a086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857c1c01c3b065a64181770525ef590e') in 0.036810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.607843 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20d22624f26edb9c17bbc28eb253064') in 0.009396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.764627 seconds.
+  path: Assets/Scenes/BossScene.unity
+  artifactKey: Guid(55744ea406c1b004f919abd1777a0314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BossScene.unity using Guid(55744ea406c1b004f919abd1777a0314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4d628436c00a8b5dd66a17cb4459b8') in 0.011005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 687.560179 seconds.
   path: Assets/Sprites/Enemy/Boss
   artifactKey: Guid(8c87eb1cde1d06743abf44bfb5b12655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy/Boss using Guid(8c87eb1cde1d06743abf44bfb5b12655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93325b3b77598573ec6f29425562dd91') in 0.003522 seconds 
+Start importing Assets/Sprites/Enemy/Boss using Guid(8c87eb1cde1d06743abf44bfb5b12655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d43fdb4f0635b4b192a96bb25c584a') in 0.008950 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.303768 seconds.
-  path: Assets/Sprites/Enemy/Boss/head.png
-  artifactKey: Guid(b787d52c3cc8e1443bfc18a34e481d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy/Boss/head.png using Guid(b787d52c3cc8e1443bfc18a34e481d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1423a5e35c6d44f2880252a66a295a99') in 0.176350 seconds 
+  Time since last request: 25.219357 seconds.
+  path: Assets/Sprites/Enemy/Boss/New Sprite Atlas.spriteatlas
+  artifactKey: Guid(87bc807be45ac0e46801ae125197db38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy/Boss/New Sprite Atlas.spriteatlas using Guid(87bc807be45ac0e46801ae125197db38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766f62356ca973bfc1e5bdb888286c77') in 0.017555 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.428948 seconds.
-  path: Assets/Sprites/Enemy/Boss/head.png
-  artifactKey: Guid(b787d52c3cc8e1443bfc18a34e481d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy/Boss/head.png using Guid(b787d52c3cc8e1443bfc18a34e481d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125387b0cadd6f1ef8a403039471533f') in 0.022067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.661558 seconds.
-  path: Assets/Sprites/Enemy/Boss/Left Arm.png
-  artifactKey: Guid(7a3b55f51da1bdf4b9c5ebff512ccfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy/Boss/Left Arm.png using Guid(7a3b55f51da1bdf4b9c5ebff512ccfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5299a6ce999ed5e5e816743221a6572b') in 0.016198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.954946 seconds.
-  path: Assets/Sprites/Enemy/Boss/Left Arm.png
-  artifactKey: Guid(7a3b55f51da1bdf4b9c5ebff512ccfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy/Boss/Left Arm.png using Guid(7a3b55f51da1bdf4b9c5ebff512ccfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec5f614cc7b46b3b2f379d42f1a16d3') in 0.014703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.790071 seconds.
-  path: Assets/Sprites/Enemy/Boss/Left fist.png
-  artifactKey: Guid(df9c25796f1cef24ca9bcf161998bb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy/Boss/Left fist.png using Guid(df9c25796f1cef24ca9bcf161998bb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e73ea4b8bcc978d07bb39505bd45f7') in 0.013003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.233521 seconds.
-  path: Assets/Sprites/Enemy/Boss/Left fist.png
-  artifactKey: Guid(df9c25796f1cef24ca9bcf161998bb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy/Boss/Left fist.png using Guid(df9c25796f1cef24ca9bcf161998bb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47dc1cd7e24b0868cbb5e220b0152243') in 0.012414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.618630 seconds.
+  Time since last request: 10.956465 seconds.
   path: Assets/Sprites/Enemy/Boss/Right Arm.png
   artifactKey: Guid(d1b9d3eb5e3351149b84402031666773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy/Boss/Right Arm.png using Guid(d1b9d3eb5e3351149b84402031666773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85eb202d63fb408a3f947ecab937e3d') in 0.015855 seconds 
+Start importing Assets/Sprites/Enemy/Boss/Right Arm.png using Guid(d1b9d3eb5e3351149b84402031666773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4803c5ae8c6f1bfe684d04ea952e607') in 0.025207 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.530136 seconds.
-  path: Assets/Sprites/Enemy/Boss/Right Arm.png
-  artifactKey: Guid(d1b9d3eb5e3351149b84402031666773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy/Boss/Right Arm.png using Guid(d1b9d3eb5e3351149b84402031666773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b6e51fe9d44e5e027bdd990e837bd9') in 0.012307 seconds 
+  Time since last request: 9.372984 seconds.
+  path: Assets/Sprites/Enemy/Boss/Left fist.png
+  artifactKey: Guid(df9c25796f1cef24ca9bcf161998bb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy/Boss/Left fist.png using Guid(df9c25796f1cef24ca9bcf161998bb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0883b1580c6a17341cbb9c2fca9396b9') in 0.024863 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.052752 seconds.
+  Time since last request: 0.591441 seconds.
+  path: Assets/Sprites/Enemy/Boss/Left Arm.png
+  artifactKey: Guid(7a3b55f51da1bdf4b9c5ebff512ccfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy/Boss/Left Arm.png using Guid(7a3b55f51da1bdf4b9c5ebff512ccfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4789b95e859c1365e8a3bd4adf3f2f9') in 0.020238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.884859 seconds.
   path: Assets/Sprites/Enemy/Boss/Right fist.png
   artifactKey: Guid(b4befebc2f62f8f46814d260b8be91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy/Boss/Right fist.png using Guid(b4befebc2f62f8f46814d260b8be91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa2c2ba174fb4827018be0f6003ca5e') in 0.017942 seconds 
+Start importing Assets/Sprites/Enemy/Boss/Right fist.png using Guid(b4befebc2f62f8f46814d260b8be91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689f6d7d665149ebf1def66cfdd46ef7') in 0.019964 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.345351 seconds.
-  path: Assets/Sprites/Enemy/Boss/Right fist.png
-  artifactKey: Guid(b4befebc2f62f8f46814d260b8be91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy/Boss/Right fist.png using Guid(b4befebc2f62f8f46814d260b8be91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09098662b676850748546062cc420d95') in 0.014330 seconds 
+  Time since last request: 28.804360 seconds.
+  path: Assets/Sprites/Enemy/Boss/New Sprite Atlas.spriteatlas
+  artifactKey: Guid(87bc807be45ac0e46801ae125197db38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy/Boss/New Sprite Atlas.spriteatlas using Guid(87bc807be45ac0e46801ae125197db38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8ea3e7fb08517f6fdef3e0bc7568e0') in 0.005478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.341905 seconds.
+  path: Assets/Sprites/Enemy/Boss/Sprite Shape Profile.asset
+  artifactKey: Guid(8f337fd8050e8234d9b52cef27a0e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy/Boss/Sprite Shape Profile.asset using Guid(8f337fd8050e8234d9b52cef27a0e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc653da21680d7db7fc4558add362971') in 0.014358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.175888 seconds.
+  path: Assets/Sprites/Enemy/Boss/Body.png
+  artifactKey: Guid(dd454daddb2863145b29dcb8da904612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy/Boss/Body.png using Guid(dd454daddb2863145b29dcb8da904612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78b05bdfc0fe925f9a906418974ba6c') in 0.043487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.325570 seconds.
+  path: Assets/Sprites/Enemy/Boss/9Sliced.png
+  artifactKey: Guid(0c45f34099c32154397865467914b953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy/Boss/9Sliced.png using Guid(0c45f34099c32154397865467914b953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7a978c8a4749a90075e6627eb821cb') in 0.015516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.517501 seconds.
+  path: Assets/Sprites/Enemy/Boss/Square.png
+  artifactKey: Guid(5d7192c837d53224ea9b578f88bcfb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy/Boss/Square.png using Guid(5d7192c837d53224ea9b578f88bcfb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fc7abef8bc6563e633d0548862c1c0') in 0.016843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.256648 seconds.
+  path: Assets/Sprites/Enemy/Boss/Square.png
+  artifactKey: Guid(5d7192c837d53224ea9b578f88bcfb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy/Boss/Square.png using Guid(5d7192c837d53224ea9b578f88bcfb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3219a3c256b97e96cbe78cbee256e6c') in 0.015726 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
