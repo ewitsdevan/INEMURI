@@ -73,7 +73,7 @@ public class MeleeEnemy : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
-            StaticVariables.EnemiesKilled += 1;
+            StaticVariables.EnemiesKilled += 1;           
         }
     }
 

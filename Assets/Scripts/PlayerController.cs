@@ -191,13 +191,13 @@ public class PlayerController : MonoBehaviour
         // Respawn when player falls
         if (collision.gameObject.CompareTag("Respawn"))
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
 
         // Game over scene when player dies
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
     }
 

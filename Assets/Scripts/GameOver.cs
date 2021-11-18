@@ -7,11 +7,11 @@ public class GameOver : MonoBehaviour
 {
     public void TryAgainClick()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void MenuClick()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

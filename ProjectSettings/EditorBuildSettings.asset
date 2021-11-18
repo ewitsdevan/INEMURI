@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Intro Cutscene.unity
+    guid: 0f69a0d4250e79841bc812ccb31a3fdf
+  - enabled: 1
     path: Assets/Scenes/MenuScene.unity
     guid: d8bd7644539be9549b94d4fcc49e9550
   - enabled: 1
@@ -17,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOverScene.unity
     guid: 611f2b6bf4d834f46a143d2d0b64469f
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Level.unity
+    guid: f5944b934dfb15b47bb53c22e0bc31b6
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Option.unity
+    guid: ba96c970e64ff2640936569e7bd84ebd
   m_configObjects: {}

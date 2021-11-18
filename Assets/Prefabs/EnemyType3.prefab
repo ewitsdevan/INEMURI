@@ -167,6 +167,7 @@ MonoBehaviour:
   attackDistance: 10
   Run: {fileID: -252505703225610242}
   Walk: {fileID: -530321823594776172}
+  deathParticle: {fileID: 0}
 --- !u!61 &2261081523367187995
 BoxCollider2D:
   m_ObjectHideFlags: 0
