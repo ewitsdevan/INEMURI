@@ -7,7 +7,7 @@ public class Menu : MonoBehaviour
 {
     public void PlayButtonClick()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(5);
     }
 
     public void ExitButtonClick()
@@ -17,7 +17,7 @@ public class Menu : MonoBehaviour
 
     public void YesButtonClick()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(4);
     }
 
     public void NoButtonClick()

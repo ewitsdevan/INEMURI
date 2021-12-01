@@ -33,7 +33,9 @@ public class PlayerController : MonoBehaviour
     public int killcount;
 
     public AudioSource JumpClip;
-  
+
+    [SerializeField] GameObject pause;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -83,6 +85,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Pause game
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pause.SetActive(true);
+            Time.timeScale = 0f;
+        }
+
         killcount = StaticVariables.EnemiesKilled;
         // Gets key input for sprites
         horizAxis = Input.GetAxis("Horizontal");
@@ -191,13 +200,13 @@ public class PlayerController : MonoBehaviour
         // Respawn when player falls
         if (collision.gameObject.CompareTag("Respawn"))
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(3);
         }
 
         // Game over scene when player dies
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(3);
         }
     }
 
