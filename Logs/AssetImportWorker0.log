@@ -1,273 +1,183 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 22000.258; Version 2009; 64bit' Language: 'en' Physical Memory: 15792 MB
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 31938 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2021.1.6f1\Editor\Unity.exe
+D:\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/purea/Documents/GitHub/INEMURI
+D:/INEMURI
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54529
-Successfully changed project path to: C:/Users/purea/Documents/GitHub/INEMURI
-C:/Users/purea/Documents/GitHub/INEMURI
+64646
+Successfully changed project path to: D:/INEMURI
+D:/INEMURI
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 115.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 92.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/purea/Documents/GitHub/INEMURI/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/INEMURI/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
     Vendor:   NVIDIA
-    VRAM:     8044 MB
-    Driver:   30.0.14.9613
+    VRAM:     8043 MB
+    Driver:   30.0.14.9649
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Mono path[0] = 'D:/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001794 seconds.
+Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001364 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 93.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.793 seconds
+- Completed reload, in  1.281 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005867 seconds.
+Registered in 0.003205 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 92.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
+- Completed reload, in  1.062 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 129.3 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3858.
+Total: 2.905900 ms (FindLiveObjects: 0.369800 ms CreateObjectMapping: 0.085200 ms MarkObjects: 2.367000 ms  DeleteObjects: 0.082400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animations/Boss fight/ProjectilePhase.anim
+  artifactKey: Guid(f146809be02e93c478d7bb1c2271fc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss fight/ProjectilePhase.anim using Guid(f146809be02e93c478d7bb1c2271fc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de4c65fc5611edca9290b6389191b9f') in 0.046078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.690904 seconds.
+  path: Assets/Animations/Boss fight/ProjectilePhase 1.anim
+  artifactKey: Guid(35a595bfe518d1a4e92c7ddcc2c4ccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss fight/ProjectilePhase 1.anim using Guid(35a595bfe518d1a4e92c7ddcc2c4ccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a53ffa2cfd48800b26fe59cd5077e8a') in 0.004819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.599440 seconds.
+  path: Assets/Animations/Boss fight/ProjectilePhaseShoot.anim
+  artifactKey: Guid(35a595bfe518d1a4e92c7ddcc2c4ccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss fight/ProjectilePhaseShoot.anim using Guid(35a595bfe518d1a4e92c7ddcc2c4ccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd96901d974974c3be5c2c5b8dcb1fe9') in 0.004092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.173417 seconds.
+  path: Assets/Animations/Boss fight/BossController.controller
+  artifactKey: Guid(402158d451125764cabfb85c2c764b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss fight/BossController.controller using Guid(402158d451125764cabfb85c2c764b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b21a2506ba9263219273b9eb799e82') in 0.011218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.411489 seconds.
+  path: Assets/Animations/Boss fight/ProjectilePhase.anim
+  artifactKey: Guid(f146809be02e93c478d7bb1c2271fc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss fight/ProjectilePhase.anim using Guid(f146809be02e93c478d7bb1c2271fc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb255abb572941faa6e5c65e5e64313b') in 0.004092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.873460 seconds.
+  path: Assets/Animations/Boss fight/ProjectilePhase 1.anim
+  artifactKey: Guid(3f47f8aa61278a342a043065a85ca438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss fight/ProjectilePhase 1.anim using Guid(3f47f8aa61278a342a043065a85ca438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf557946f190f94e992acdb0311d7455') in 0.003869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.819325 seconds.
+  path: Assets/Animations/Boss fight/BossController.controller
+  artifactKey: Guid(402158d451125764cabfb85c2c764b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss fight/BossController.controller using Guid(402158d451125764cabfb85c2c764b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3689a6d6c1c8b3b5ac3d573594183e') in 0.008693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 377.836269 seconds.
+  path: Assets/Animations/Boss fight/BossController.controller
+  artifactKey: Guid(402158d451125764cabfb85c2c764b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss fight/BossController.controller using Guid(402158d451125764cabfb85c2c764b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5970b72bf00941aa2670e8ab8efe92') in 0.009296 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003443 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 128.5 MB.
-System memory in use after: 128.7 MB.
+System memory in use after: 128.8 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3851.
-Total: 2.221800 ms (FindLiveObjects: 0.246400 ms CreateObjectMapping: 0.084700 ms MarkObjects: 1.839900 ms  DeleteObjects: 0.049200 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3860.
+Total: 2.528400 ms (FindLiveObjects: 0.369400 ms CreateObjectMapping: 0.089800 ms MarkObjects: 2.049700 ms  DeleteObjects: 0.018200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc38001ce23cc9a8aeb67c96c1c9851') in 0.016375 seconds 
+  Time since last request: 438.172880 seconds.
+  path: Assets/Scripts/StapleEnemyBoss.cs
+  artifactKey: Guid(f82f189ddffd3524e80c5bc7b0e49273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StapleEnemyBoss.cs using Guid(f82f189ddffd3524e80c5bc7b0e49273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ce4b881ca3b7acae64374d6b1123b5') in 0.170714 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 1146.026103 seconds.
-  path: Assets/Scenes/Tutorial Level.unity
-  artifactKey: Guid(f5944b934dfb15b47bb53c22e0bc31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tutorial Level.unity using Guid(f5944b934dfb15b47bb53c22e0bc31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f610737082937f0946ee7837cc82af77') in 0.008083 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3862.
+Total: 3.060600 ms (FindLiveObjects: 0.377200 ms CreateObjectMapping: 0.087100 ms MarkObjects: 2.569400 ms  DeleteObjects: 0.025500 ms)
+
 ========================================================================
-Received Import Request.
-  Time since last request: 0.556577 seconds.
-  path: Assets/Scenes/Tutorial Option.unity
-  artifactKey: Guid(ba96c970e64ff2640936569e7bd84ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tutorial Option.unity using Guid(ba96c970e64ff2640936569e7bd84ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3432b8bb61b35949d77a999d4a777408') in 0.008021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.501764 seconds.
-  path: Assets/MoveLeft Control UI.png
-  artifactKey: Guid(6aa03617d554e4046a63de8a9b0b728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoveLeft Control UI.png using Guid(6aa03617d554e4046a63de8a9b0b728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be3cc4dcf8366e30c717964e2893e21') in 0.070989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.127564 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(51bb5951d4ed39248810c8e4e50a2f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(51bb5951d4ed39248810c8e4e50a2f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb569cf2d8a4116500ea1203469a4c81') in 0.007755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.466919 seconds.
-  path: Assets/Scenes/MenuScene.unity
-  artifactKey: Guid(d8bd7644539be9549b94d4fcc49e9550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MenuScene.unity using Guid(d8bd7644539be9549b94d4fcc49e9550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924622a24982959a43dcff189bd05615') in 0.008051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.447962 seconds.
-  path: Assets/Scenes/Intro Cutscene.unity
-  artifactKey: Guid(0f69a0d4250e79841bc812ccb31a3fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Intro Cutscene.unity using Guid(0f69a0d4250e79841bc812ccb31a3fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fd66fbb97c008a144a02bd70e51d0b') in 0.007348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.609414 seconds.
-  path: Assets/Scenes/GameOverScene.unity
-  artifactKey: Guid(611f2b6bf4d834f46a143d2d0b64469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameOverScene.unity using Guid(611f2b6bf4d834f46a143d2d0b64469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9736fe0022ea388e9cd74a2ba384650') in 0.006808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.931726 seconds.
-  path: Assets/Sprites/Enemy/Boss/Face Sprites/Angry (Attack).png
-  artifactKey: Guid(24e50d70dff56d84b80bbc69d549af7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemy/Boss/Face Sprites/Angry (Attack).png using Guid(24e50d70dff56d84b80bbc69d549af7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff3e3c2d88a1693bb2b8f6804ab6505') in 0.033796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Sprites/Environment/Prototype_v2.psb
-  artifactKey: Guid(5703c8658d4e0a945aceee8f88359618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Prototype_v2.psb using Guid(5703c8658d4e0a945aceee8f88359618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4760532a26da21b8e8f2926401030c52') in 0.272657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Sprites/Environment/Prototype_v5.psb
-  artifactKey: Guid(77bd04eb0a8b8064aa5ee070fe41ec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Prototype_v5.psb using Guid(77bd04eb0a8b8064aa5ee070fe41ec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03386d071d10971c3689647f9e9b042c') in 0.142459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Sprites/Environment/Level/Background Barriers.png
-  artifactKey: Guid(0f3972b428b08a643b5619aaae85e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Level/Background Barriers.png using Guid(0f3972b428b08a643b5619aaae85e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0767e312731fdc55670ab8444191308') in 0.079964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Sprites/Environment/Tutorial Level/Background.png
-  artifactKey: Guid(df07a0bb019c23342a2b229dc6ad5518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/Tutorial Level/Background.png using Guid(df07a0bb019c23342a2b229dc6ad5518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877b7e902bb45f6c2791765508e5ddcb') in 0.023416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.152473 seconds.
-  path: Assets/tint.png
-  artifactKey: Guid(0acbdd9460081b04cbd5a187d048072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tint.png using Guid(0acbdd9460081b04cbd5a187d048072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaedbda0d35835d94cfe0f84f3825e27') in 0.026115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.023322 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(e44016b6d83f03c45bd4f33f9c1b7d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(e44016b6d83f03c45bd4f33f9c1b7d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a347e5ec528a745dea20874628d8df') in 0.007947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.068512 seconds.
-  path: Assets/Scripts/FollowPlayer.cs
-  artifactKey: Guid(c561932a9d3edf240bd0848912df29fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FollowPlayer.cs using Guid(c561932a9d3edf240bd0848912df29fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5ad37e299e39ddcad7bd6a0a1ef3ba') in 0.043176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.750756 seconds.
-  path: Assets/Scripts/GameOver.cs
-  artifactKey: Guid(6c60fc826a2a71a419c42e18607d538b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameOver.cs using Guid(6c60fc826a2a71a419c42e18607d538b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e10d32a60696e5eb4dc8c98ada38bbd') in 0.007111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.859632 seconds.
-  path: Assets/Scripts/MeleeEnemy.cs
-  artifactKey: Guid(e6480dffbc36493479c7551dc71b905e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MeleeEnemy.cs using Guid(e6480dffbc36493479c7551dc71b905e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536c46d8c7a97a0308c97b98976d42b8') in 0.007905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.585035 seconds.
-  path: Assets/Scripts/MeleeEnemyTutorial.cs
-  artifactKey: Guid(c57d91b7468204345abba726e2fc9502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MeleeEnemyTutorial.cs using Guid(c57d91b7468204345abba726e2fc9502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23675470453d9b7dd6d2cfada86f4ed5') in 0.007028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.430188 seconds.
-  path: Assets/Scripts/Menu.cs
-  artifactKey: Guid(cc92c9f47e2480e479f64e20aea9ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Menu.cs using Guid(cc92c9f47e2480e479f64e20aea9ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e5109b76b8c97e9936d6d93017a596') in 0.006831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.018355 seconds.
-  path: Assets/Scripts/OpenCutscene.cs
-  artifactKey: Guid(3ae12ce762647f140ae22fe81eb26875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OpenCutscene.cs using Guid(3ae12ce762647f140ae22fe81eb26875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee09db03a3700c328f77ad854da73b2') in 0.007758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.334664 seconds.
-  path: Assets/Scripts/PinEnemy.cs
-  artifactKey: Guid(c8c362c0151a0c14fa8d1aea0b42a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PinEnemy.cs using Guid(c8c362c0151a0c14fa8d1aea0b42a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da00d0d39f62578dab987aad56afe051') in 0.008023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.903723 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(9e8b32b6b8fb33b418299c06a1896695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(9e8b32b6b8fb33b418299c06a1896695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2a6a69e0305b2986f5860dadb527fc') in 0.006946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.823292 seconds.
-  path: Assets/Scripts/PlayerProjectile.cs
-  artifactKey: Guid(219c160e16b24ab43a909168df0496a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerProjectile.cs using Guid(219c160e16b24ab43a909168df0496a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b4ba67ad2ac2f0a70c924d24544290') in 0.007785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.183609 seconds.
-  path: Assets/Scripts/ProjectileEnemy.cs
-  artifactKey: Guid(5281dab9be6f2cf498514f283b720617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ProjectileEnemy.cs using Guid(5281dab9be6f2cf498514f283b720617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd069762fbf2b9a5970f3f34e9a7fa773') in 0.006614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.921357 seconds.
-  path: Assets/Scripts/StapleEnemy.cs
-  artifactKey: Guid(6633bacb4e3633a44a0b7c000cec3540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/StapleEnemy.cs using Guid(6633bacb4e3633a44a0b7c000cec3540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8138df0d61933627a937d3c05d1ad604') in 0.007437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.729103 seconds.
-  path: Assets/Scripts/StaticVariables.cs
-  artifactKey: Guid(e665cdbb776c71541882255fc06e5c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/StaticVariables.cs using Guid(e665cdbb776c71541882255fc06e5c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513c690db7cd0afd4921328fe1319bc1') in 0.007715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.173592 seconds.
-  path: Assets/Scripts/TutorialUI.cs
-  artifactKey: Guid(fea731043e0b77945b1b46a58e4c2bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TutorialUI.cs using Guid(fea731043e0b77945b1b46a58e4c2bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8531c4729c1ec05ed644ab340445812c') in 0.006851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.008511 seconds.
-  path: Assets/Scripts/BossBattleManager.cs
-  artifactKey: Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BossBattleManager.cs using Guid(79148ba36fb098749bb228aeba9d564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaa461aaa0d836fe7db0fa7eb7803d6') in 0.006985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.539601 seconds.
-  path: Assets/Scripts/ButtonSounds.cs
-  artifactKey: Guid(38810fd60754efa45a022887f9f4a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ButtonSounds.cs using Guid(38810fd60754efa45a022887f9f4a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4dd12984c9a317b08859fe9aa64af7') in 0.006668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.904664 seconds.
-  path: Assets/Scripts/CheckpointBarrier.cs
-  artifactKey: Guid(86e04e3d976886b45a4eb9667218b83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CheckpointBarrier.cs using Guid(86e04e3d976886b45a4eb9667218b83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347e24d2890b1b64af7463c8ea51d68d') in 0.006708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.011519 seconds.
-  path: Assets/Scripts/LevelProgressUI.cs
-  artifactKey: Guid(5d22516669e27f4498174e204f2e7aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LevelProgressUI.cs using Guid(5d22516669e27f4498174e204f2e7aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2873cc260627a2a4bef3ba8553750c4d') in 0.007166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1074.907457 seconds.
-  path: Assets/Untitled_Artwork (2).png
-  artifactKey: Guid(dee4d6c64c12bbe4092571adf5faf8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Untitled_Artwork (2).png using Guid(dee4d6c64c12bbe4092571adf5faf8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fdd0eae9d94e9e1abc3a43951d3bd7') in 0.032855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Untitled_Artwork (3).png
-  artifactKey: Guid(d8fec08ef0ed14546b6450abcf1e5b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Untitled_Artwork (3).png using Guid(d8fec08ef0ed14546b6450abcf1e5b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c0404c5c943914b0f7c395c8c28fe6') in 0.023191 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003484 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3864.
+Total: 2.973400 ms (FindLiveObjects: 0.384400 ms CreateObjectMapping: 0.090400 ms MarkObjects: 2.473600 ms  DeleteObjects: 0.023500 ms)
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
