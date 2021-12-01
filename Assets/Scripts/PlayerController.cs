@@ -124,11 +124,11 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
             {
                 playerRidg.AddForce(new Vector2(0, jumpHeight), ForceMode2D.Impulse);
-                JumpClip.Play(0);
+                JumpClip.Play(0);              
             }
         }
         else if (isGrounded == false && isJumping)
-        {
+        {           
             // Sets jump sprite
             if (horizAxis > 0)
             {
@@ -153,7 +153,7 @@ public class PlayerController : MonoBehaviour
         {
             Instantiate(projectilePrefab, transform.position, transform.rotation);
             canShoot = false;           
-            StartCoroutine(ShootDelay());
+            StartCoroutine(ShootDelay());            
         }
 
         if (horizAxis != 0)
