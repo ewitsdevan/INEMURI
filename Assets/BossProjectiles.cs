@@ -13,8 +13,6 @@ public class BossProjectiles : StateMachineBehaviour
     private GameObject player;
 
     private SpriteRenderer spriteRend;
-    public Sprite idle;
-    public Sprite attack;
 
     void SpawnPin()
     {        

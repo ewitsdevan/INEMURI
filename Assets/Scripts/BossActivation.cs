@@ -5,19 +5,20 @@ using UnityEngine;
 public class BossActivation : MonoBehaviour
 {
     [SerializeField] GameObject bossObject;
-    [SerializeField] GameObject music;
     [SerializeField] GameObject BossMusic;
     [SerializeField] GameObject bossBackground;
+    [SerializeField] GameObject bossHealth;
+    [SerializeField] GameObject barrierBoss;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("Player is here");
-            bossObject.SetActive(true);           
-            music.SetActive(false);
+        {           
+            bossObject.SetActive(true);                      
             BossMusic.SetActive(true);
             bossBackground.SetActive(true);
+            bossHealth.SetActive(true);
+            barrierBoss.SetActive(true);
             StartCoroutine(LerpFoV(100));
             GameObject.Find("Main Camera").transform.position = new Vector3(181,20,-17.5f);           
         }   

@@ -15,7 +15,6 @@ public class Options : MonoBehaviour
     void Start()
     {
 
-
         qualityValue = QualitySettings.GetQualityLevel();
         qualityDropdown.value = qualityValue;
     }

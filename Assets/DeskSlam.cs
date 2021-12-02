@@ -5,6 +5,7 @@ using UnityEngine;
 public class DeskSlam : MonoBehaviour
 {
     public GameObject bossObject;
+    public AudioSource PunchSFX;
     
 
     public void KillBoss()
@@ -14,7 +15,8 @@ public class DeskSlam : MonoBehaviour
 
     public void DeskSlamCamera()
     {
-        StartCoroutine(LerpFoV(90));       
+        StartCoroutine(LerpFoV(90));
+        PunchSFX.Play(0);
     }
 
     public void ExitDeskSlamCamera()
