@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossHealth : MonoBehaviour
 {
+    [SerializeField] GameObject victoryScreen;
     public int health = 500;
 
     public int playerAttackDamage = 20;
@@ -19,15 +21,17 @@ public class BossHealth : MonoBehaviour
             health -= playerAttackDamage;
             Debug.Log(health);
 
-            if (health < 0)
+            if (health <= 0)
             {
-                Die();
+                bossObject.GetComponent<Animator>().SetTrigger("BossDead");
+                Victory();
             }
         }
     }
 
-    void Die()
-    {
-        Destroy(bossObject);
+    public void Victory()
+    {     
+        Time.timeScale = 0.8f;
+        victoryScreen.SetActive(true);
     }
 }

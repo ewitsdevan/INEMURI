@@ -56,7 +56,7 @@ public class MeleeAttackBehaviour : StateMachineBehaviour
 
     public void Shuffle()
     {
-        for (int i = 0; i < pickAttack.Length-1; i++)
+        for (int i = 0; i < pickAttack.Length - 1; i++)
         {
             int r = Random.Range(i, pickAttack.Length);
             tempAttack = pickAttack[r];
@@ -65,5 +65,6 @@ public class MeleeAttackBehaviour : StateMachineBehaviour
             break;
         }
     }
-   
 }
+
+    
