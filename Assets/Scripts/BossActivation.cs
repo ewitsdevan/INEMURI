@@ -20,9 +20,8 @@ public class BossActivation : MonoBehaviour
             bossBackground.SetActive(true);
             StartCoroutine(LerpFoV(100));
             GameObject.Find("Main Camera").transform.position = new Vector3(181,20,-17.5f);           
-        }
+        }   
     }
-
 
     IEnumerator LerpFoV(float fov)
     {
