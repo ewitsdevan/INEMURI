@@ -12,16 +12,13 @@ public class MeleeAttackBehaviour : StateMachineBehaviour
 
     private bool melee = true;
 
-    public GameObject bossStaple;
-
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         if (s)
         {
             Shuffle();
-            s = false;
-            
+            s = false;          
         }
 
         animator.SetTrigger(pickAttack[randomAttack]);
@@ -41,8 +38,8 @@ public class MeleeAttackBehaviour : StateMachineBehaviour
         if (randomAttack <= pickAttack.Length + 1 && melee == true)
         {
             animator.SetTrigger("Attack4");            
-            Instantiate(bossStaple);
         }
+      
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
