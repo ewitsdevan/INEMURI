@@ -17,8 +17,6 @@ public class BossHealth : MonoBehaviour
 
     public int playerAttackDamage = 20;
 
-    bool damage = false;
-
     public GameObject bossObject;
 
     public AudioSource damageBoss;
