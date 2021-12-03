@@ -21,8 +21,22 @@ public class ProjectileEnemy : MonoBehaviour
 
     void Start()
     {
-        spriteRend = GetComponent<SpriteRenderer>();        
-        player = GameObject.FindGameObjectWithTag("Player");        
+        spriteRend = GetComponent<SpriteRenderer>();
+        StartCoroutine(SpawnDelay());
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Vector3.Distance(transform.position, player.transform.position) <= attackDistance)
+        {
+            if (spawn == true)
+            {
+                SpawnPin();
+            }
+        }
+
     }
 
     //Spawns pin at enemy position
