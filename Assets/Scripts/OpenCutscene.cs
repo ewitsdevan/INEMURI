@@ -23,6 +23,6 @@ public class OpenCutscene : MonoBehaviour
 
     public void SkipButtonClick()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("MenuScene");
     }
 }

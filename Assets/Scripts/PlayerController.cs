@@ -178,13 +178,6 @@ public class PlayerController : MonoBehaviour
             StaticVariables.Progress += 0.25f;
             Destroy(collision.gameObject);
         }
-
-        //Boss checkpoint
-        if (collision.gameObject.CompareTag("FinalCheckpoint"))
-        {
-            StaticVariables.Progress += 0.25f;
-            SceneManager.LoadScene(2);
-        }
     }
 
     // While collision exists
@@ -200,13 +193,13 @@ public class PlayerController : MonoBehaviour
         // Respawn when player falls
         if (collision.gameObject.CompareTag("Respawn"))
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene("GameOverScene");
         }
 
         // Game over scene when player dies
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene("GameOverScene");
         }
     }
 

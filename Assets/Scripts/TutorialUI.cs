@@ -8,11 +8,11 @@ public class TutorialUI : MonoBehaviour
 {
     public void PlayButtonClick()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("GameScene");
     }
 
     public void MainMenuClick()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("MenuScene");
     }
 }

@@ -5,11 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    public void PlayButtonClick()
-    {
-        SceneManager.LoadScene(5);
-    }
-
     public void ExitButtonClick()
     {
         Application.Quit();
@@ -17,16 +12,11 @@ public class Menu : MonoBehaviour
 
     public void YesButtonClick()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene("TutorialScene");
     }
 
     public void NoButtonClick()
     {
-        SceneManager.LoadScene(2);
-    }
-
-    public void BackButtonClick()
-    {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("GameScene");
     }
 }
