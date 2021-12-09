@@ -11,7 +11,7 @@ public class FollowPlayer : MonoBehaviour
     private Vector3 velocity = Vector3.zero;
     private Vector3 targetPosition;
 
-    void Update()
+    void FixedUpdate()
     {
         // Camera follows the player with specified offset position
         targetPosition = new Vector3(player.position.x + offset.x, player.position.y + offset.y, offset.z);
