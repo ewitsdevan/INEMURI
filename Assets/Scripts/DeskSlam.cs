@@ -28,6 +28,7 @@ public class DeskSlam : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(1f);
     }
+
     IEnumerator LerpFoV(float fov)
     {
         while (Camera.main.fieldOfView != fov)

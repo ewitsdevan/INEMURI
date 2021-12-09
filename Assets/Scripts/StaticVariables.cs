@@ -7,6 +7,8 @@ public static class StaticVariables
     private static float progress;
     private static int enemiesKilled;
 
+    private static float volume = 1;
+
     public static float Progress
     {
         get
@@ -28,6 +30,18 @@ public static class StaticVariables
         set
         {
             enemiesKilled = value;
+        }
+    }
+
+    public static float Volume
+    {
+        get
+        {
+            return volume;
+        }
+        set
+        {
+            volume = value;
         }
     }
 }

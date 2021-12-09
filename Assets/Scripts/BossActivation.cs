@@ -20,7 +20,8 @@ public class BossActivation : MonoBehaviour
             bossHealth.SetActive(true);
             barrierBoss.SetActive(true);
             StartCoroutine(LerpFoV(100));
-            GameObject.Find("Main Camera").transform.position = new Vector3(181,20,-17.5f);           
+            Camera.main.GetComponent<FollowPlayer>().enabled = false;
+            Camera.main.transform.position = new Vector3(190,25,-14);           
         }   
     }
 

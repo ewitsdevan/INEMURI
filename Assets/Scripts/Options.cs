@@ -5,25 +5,24 @@ using UnityEngine.UI;
 
 public class Options : MonoBehaviour
 {
-    public bool isMute;
     public int qualityValue;
-
-    public Toggle muteToggle;
+    public Slider volumeSlider;
     public Dropdown qualityDropdown;
 
     // Gets default values to apply to UI at start.
     void Start()
     {
+        volumeSlider.value = StaticVariables.Volume;
 
         qualityValue = QualitySettings.GetQualityLevel();
         qualityDropdown.value = qualityValue;
     }
 
-    // Triggered by Toggle
-    public void MuteChange()
+    // Triggered by Slider
+    public void VolumeChange()
     {
-        isMute = muteToggle.isOn;
-
+        StaticVariables.Volume = volumeSlider.value;
+        AudioListener.volume = volumeSlider.value;
     }
 
     // Triggered by Dropdown

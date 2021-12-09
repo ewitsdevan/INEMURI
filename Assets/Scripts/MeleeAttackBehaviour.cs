@@ -8,23 +8,23 @@ public class MeleeAttackBehaviour : StateMachineBehaviour
     private string tempAttack;
 
     public int randomAttack;
-    private bool s = true;
+    private bool shuffle = true;
 
     private bool melee = true;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (s)
+        if (shuffle)
         {
             Shuffle();
-            s = false;          
+            shuffle = false;
         }
 
-        animator.SetTrigger(pickAttack[randomAttack]);
+        animator.SetTrigger(pickAttack[Shuffle()]);
         randomAttack++;
 
-        if (randomAttack == pickAttack.Length+1)
+        if (randomAttack == pickAttack.Length + 1)
         {           
             randomAttack = 0;           
             melee = false;
@@ -33,8 +33,6 @@ public class MeleeAttackBehaviour : StateMachineBehaviour
             animator.ResetTrigger("Attack3");
         }
 
-
-
         if (randomAttack <= pickAttack.Length + 1 && melee == true)
         {
             animator.SetTrigger("Attack4");            
@@ -42,28 +40,9 @@ public class MeleeAttackBehaviour : StateMachineBehaviour
       
     }
 
-    // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
-    override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    public int Shuffle()
     {
-        
-    }
-
-    // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-           
-    }
-
-    public void Shuffle()
-    {
-        for (int i = 0; i < pickAttack.Length - 1; i++)
-        {
-            int r = Random.Range(i, pickAttack.Length);
-            tempAttack = pickAttack[r];
-            pickAttack[r] = pickAttack[i];
-            pickAttack[i] = tempAttack;
-            break;
-        }
+        return Random.Range(0, pickAttack.Length);
     }
 }
 
